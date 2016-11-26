@@ -1,0 +1,35 @@
+# Site settings
+title: Digidem Guide
+email: contact@p-jo.se
+description: "Practical tools to create communities and make decisions together."
+url: http://digidemguide.org
+twitter:
+  username: digidemlab
+facebook:
+  publisher: petter.joelson
+logo: /public/logo.png
+social:
+  links:
+    - "https://www.facebook.com/groups/digidemlab"
+    - "https://github.com/digidemlab/digidem-guide"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+# relative_permalinks: true
+permalink: pretty
+
+gems:
+  - jekyll-seo-tag
+
+# Multilingual settings
+# See https://github.com/tristen/multilingual
+# permalink: /:categories/:title
+# languages:
+#   - name: 'English'
+#     key: 'en'
+#   - name: 'Español'
+#     key: 'es'
+
+# Settings
+exclude:  [".sass-cache", "bower_components", "Rakefile"]

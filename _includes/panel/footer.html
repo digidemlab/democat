@@ -1,0 +1,19 @@
+
+<hr>
+
+<footer class="container">
+
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <p><small>
+        {% for item in site.data.menus[5].items %}
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>&nbsp;
+        {% endfor %}
+        © Copyright {{ 'now' | date: "%Y" }} | {{ site.title }}
+      </small></p>
+    </div>
+  </div>
+  <p>&nbsp;</p>
+
+
+</footer>

@@ -1,0 +1,50 @@
+{% assign navurl = page.url | remove:'index.html' %}
+{% assign navparts = page.url | split:'/' %}
+{% assign pages = site.pages | sort:"weight"  %}
+
+<div id="skip-link">
+  <a href="#main-content" class="sr-only" accesskey="s">Hoppa till huvudinnehåll</a>
+</div>
+
+<header>
+
+  <nav class="navbar navbar-default navbar-grey navbar-fixed-top" role="navigation">
+
+    <div class="alert alert-warning alert-dismissible fade in" role="alert">
+      <button type="button" class="close close-cookie" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+      <p>{{site.title}} använder <a href="{{site.baseurl}}/om-cookies">cookies</a> för att förbättra för dig som besökare. &nbsp;
+        <button type="button" data-dismiss="alert" class="btn btn-default btn-sm close-cookie">Ok</button>
+      </p>
+    </div>
+
+    <div class="container">
+
+
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>        
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden-xs">
+          <a>English</a>
+        </li>
+        <li>
+          <a>Lättläst</a>
+        </li>
+        <li>
+          <a><span class="hidden-xs">Sök </span><span class="glyphicon glyphicon-search"></span></a>
+        </li>
+        <li>
+          <a class="" style="cursor:pointer" data-toggle="sidebar" data-target=".sidebar"><span class="hidden-xs">
+            Meny </span><span class="glyphicon glyphicon-menu-hamburger"></span>&nbsp;</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<a id="main-content"></a>
+
