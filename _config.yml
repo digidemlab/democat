@@ -10,7 +10,7 @@ collections:
     output: true
 email: contact@p-jo.se
 description: Practical tools to create communities and make decisions together.
-url: http://digidemguide.org
+# url: http://digidemguide.org
 twitter:
   username: digidemlab
 facebook:
@@ -23,6 +23,14 @@ social:
 baseurl: ''
 markdown: kramdown
 permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: tool
+    permalink: /:title/
 gems:
 - jekyll-seo-tag
 exclude:

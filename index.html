@@ -41,3 +41,38 @@ infobox:
     </div>
   {% endfor %}
 </div>
+
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h2>I want to…</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <dl>
+      {% comment %}
+      #
+      #  Change date order by adding '| reversed'
+      #  To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
+      #
+      {% endcomment %}
+      {% assign sorted_cats = site.categories | sort %}
+      {% for category in sorted_cats %}
+      {% assign sorted_posts = category[1] | reversed %}
+        <dt id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
+        <dd>
+          <ul class="list-unstyled">
+          {% for post in sorted_posts %}
+            <li>
+         	    <a href="{{site.baseurl}}{{post.url}}">
+                <div>{{post.description}}</div>
+                <div>{{post.title}}</div>
+              </a>
+            </li>
+          {% endfor %}
+        </dd>
+      {% endfor %}
+    </dl>
+  </div>
+</div>
