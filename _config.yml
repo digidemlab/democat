@@ -28,8 +28,7 @@ social:
 baseurl: "/digidemguide"
 markdown: kramdown
 permalink: "/:title/"
-gems:
-# - jekyll-seo-tag
+gems: 
 exclude:
 - ".sass-cache"
 - bower_components
