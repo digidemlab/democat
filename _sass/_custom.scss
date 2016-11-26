@@ -11,3 +11,16 @@ img {
 .padding {
   margin-bottom: 1em;
 }
+
+// Cat speach bubble
+.cat {
+  background-color: $purple-light;
+  max-width: 20em;
+  border-radius: 6em;
+
+  &_quote {
+    color: $purple;
+    font-family: $font-family-cat;
+    padding: 1em;
+  }
+}
