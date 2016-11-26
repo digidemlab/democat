@@ -1,0 +1,14 @@
+{
+  "name": "jekyll-get",
+  "homepage": "https://github.com/18F/jekyll-get",
+  "_release": "6285aa69e2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6285aa69e2c5eebcb247c5ca5fc2dc9e2a51e71c"
+  },
+  "_source": "git://github.com/18F/jekyll-get.git",
+  "_target": "*",
+  "_originalSource": "18F/jekyll-get",
+  "_direct": true
+}

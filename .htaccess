@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^p-jo.se [NC]
+RewriteRule ^(.*)$ http://www.p-jo.se$1 [L,R=301]
+RedirectMatch 301 ^/prototyp/(.*)$ http://lakareutangranser-prototype.p-jo.se/$1
