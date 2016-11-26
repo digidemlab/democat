@@ -22,7 +22,7 @@ social:
   - https://github.com/digidemlab/digidem-guide
 baseurl: ''
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
 defaults:
   -
     scope:
@@ -30,7 +30,6 @@ defaults:
       type: posts
     values:
       layout: tool
-    permalink: /:title/
 gems:
 - jekyll-seo-tag
 exclude:
