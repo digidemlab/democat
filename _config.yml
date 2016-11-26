@@ -29,7 +29,7 @@ baseurl: ''
 markdown: kramdown
 permalink: pretty
 gems:
-- jekyll-seo-tag
+# - jekyll-seo-tag
 exclude:
 - ".sass-cache"
 - bower_components
