@@ -8,9 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: tool
 email: contact@p-jo.se
 description: Practical tools to create communities and make decisions together.
-# url: http://digidemguide.org
 twitter:
   username: digidemlab
 facebook:
@@ -23,13 +28,6 @@ social:
 baseurl: ''
 markdown: kramdown
 permalink: /:title/
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: tool
 gems:
 - jekyll-seo-tag
 exclude:
