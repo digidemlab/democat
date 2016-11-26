@@ -27,7 +27,7 @@ social:
   - https://github.com/digidemlab/digidem-guide
 baseurl: ''
 markdown: kramdown
-permalink: /:title/
+permalink: "/:title/"
 gems:
 - jekyll-seo-tag
 exclude:
