@@ -1,13 +1,10 @@
 ---
 layout: default
 ---
-
+{% include panel/header.html %}
 <main id="main">
-	<div class="container-fluid">
-		<div class="row">
-		    <div class="col-sm-10 col-md-8 col-md-offset-1 col-lg-6">
-  			  {{content}}
-      	</div>
-  	</div>
+	<div class="container">
+	  {{content}}
 	</div>
 </main>
+{% include panel/footer.html %}
