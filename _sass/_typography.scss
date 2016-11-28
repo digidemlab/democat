@@ -3,19 +3,28 @@
 
 @import url('https://fonts.googleapis.com/css?family=Itim|Noto+Sans:400,400i,700,700i');
 
-.heading-a {
-  font-size: 1.5em;
+%heading {
   color: $purple;
+  font-weight: bold;
+  font-family: $font-family-sans-serif;
+}
+
+.heading-a {
+  @extend %heading;
+  font-size: 1.875em;
 
   &.-white {
     color: $white;
   }
+
+  &.-italic {
+    font-style: italic;
+  }
 }
 
-.heading-c {
+.heading-b {
+  @extend %heading;
   font-size: 1.5em;
-  color: $purple;
-  font-weight: bold;
 
   &.-white {
     color: $white;
@@ -25,8 +34,15 @@
 p {
   font-size: 1.125em;
   line-height: 1.750em;
-  
+
   &.-white {
     color: $white;
   }
+}
+
+.lead {
+  font-size: 1.125em;
+  line-height: 1.750em;
+  font-family: $font-family-sans-serif;
+  color: $purple;
 }
