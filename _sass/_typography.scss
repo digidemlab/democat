@@ -42,6 +42,37 @@ p {
   &.-white {
     color: $white;
   }
+  @media screen and (min-width: $break-medium) {
+    font-size: 1.500em;
+  }
+}
+
+// Quote
+.quote {
+  background-color: $blue-light;
+  padding: 3em 0;
+
+  blockquote {
+    border-left: none;
+    color: $blue;
+    font-size: 1.125em;
+    line-height: 1.750em;
+    font-style: italic;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 1.500em;
+    }
+  }
+
+  &_source {
+    font-size: 1.125em;
+    color: $black;
+
+    &::before {
+      content: '–';
+      margin-right: 0.2em;
+    }
+  }
 }
 
 .summary {

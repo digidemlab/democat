@@ -22,8 +22,15 @@ layout: global
 </dl>
 
 {% include content/democat.html cat="happy" %}
+<div class="row">
+  <div class="col-sm-12 col-md-8 col-md-offset-2">
+    {{content}}
+  </div>
+</div>
 
-{{content}}
+{% if page.quote %}
+  {% include content/quote.html %}
+{% endif %}
 
 <h2 class="heading-b">Resources & Links</h2>
 <ul class="nav nav-pills nav-stacked">
@@ -38,5 +45,6 @@ layout: global
   {% endif %}
 </ul>
 
-
-<a class="btn btn-default" href="{{site.baseurl}}" role="button">Show me something else</a>
+<div class="col-sm-12 text-center">
+  <a class="btn btn-default" href="{{site.baseurl}}" role="button">Show me something else</a>
+</div>
