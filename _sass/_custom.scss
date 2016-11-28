@@ -24,3 +24,11 @@ img {
 .visually-hidden {
   display: none;
 }
+
+.infobox {
+  background-color: $purple;
+  
+  &_inner {
+    padding: 1.5em;
+  }
+}

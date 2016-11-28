@@ -15,11 +15,11 @@ layout: global
 
 {% include content/democat.html cat="happy" %}
 
-<div class="row">
+<div class="row infobox">
   {% for item in page.infobox %}
-    <div class="col-sm-4">
-      <h3>{{item.title}}</h3>
-      <p>{{item.text}}</p>
+    <div class="col-sm-4 text-center infobox_inner">
+      <h3 class="heading-c -white">{{item.title}}</h3>
+      <p class="-white">{{item.text}}</p>
     </div>
   {% endfor %}
 </div>

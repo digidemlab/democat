@@ -1,0 +1,32 @@
+//
+// Typography and custom fonts
+
+@import url('https://fonts.googleapis.com/css?family=Itim|Noto+Sans:400,400i,700,700i');
+
+.heading-a {
+  font-size: 1.5em;
+  color: $purple;
+
+  &.-white {
+    color: $white;
+  }
+}
+
+.heading-c {
+  font-size: 1.5em;
+  color: $purple;
+  font-weight: bold;
+
+  &.-white {
+    color: $white;
+  }
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.750em;
+  
+  &.-white {
+    color: $white;
+  }
+}
