@@ -1,5 +1,5 @@
 ---
-title: BetterMeans
+title: Template
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
