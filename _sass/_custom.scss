@@ -16,11 +16,12 @@ img {
   display: none;
 }
 
+// Infobox on start page
 .infobox {
   background-color: $purple;
 
   &_inner {
-    padding: 1.5em;
+    padding: 2.5em;
   }
 }
 
@@ -28,4 +29,9 @@ img {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.cover-color {
+  background-color: $purple;
+  background-size: cover;
 }

@@ -5,10 +5,11 @@
   padding: 0;
 }
 
-.hero-wrap{
+.hero-wrap {
 	min-width: 280px;
 	margin: auto;
 	position: relative;
+  opacity: 0.8;
 	background: url(../images/jpg/hero-village-desktop.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -19,11 +20,12 @@
 		height: 200px;
 		background: url(../images/jpg/hero-village.jpg);
 		/*border: 10px solid #090;*/
-	}	
+	}
 }
 
 .hero-caption {
 	position:absolute;
+  z-index: 2;
 	top:5px;
 	left:0;
 	right:0;
@@ -40,14 +42,12 @@
 .hero-caption-content {
 	display:table-cell;
 	vertical-align:middle;
-	.heading-a.-white {
-		background:rgba(255,255,255,0.4);
-		padding: 3rem;
-		margin: 3rem;
+	.heading-hero {
+		padding: 5rem;
+		margin: 5rem;
 		@media screen and (max-width: $break-small) {
 			padding: 1.2rem;
 			margin: 1.2rem;
 		}
 	}
 }
-

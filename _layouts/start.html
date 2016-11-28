@@ -2,14 +2,16 @@
 layout: global
 ---
 
-<div class="hero-wrap"> 
+<div class="cover-color">
+  <div class="hero-wrap">
     <div class="hero-caption">
-        <div class="hero-caption-inner">
-            <div class="hero-caption-content">
-                <h1 class="heading-a -white text-center">{{page.summary}}</h1>
-            </div>
+      <div class="hero-caption-inner">
+        <div class="hero-caption-content">
+          <h1 class="heading-hero text-center">{{page.summary}}</h1>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% include content/democat.html cat="happy" %}
@@ -17,8 +19,8 @@ layout: global
 <div class="row infobox">
   {% for item in page.infobox %}
     <div class="col-sm-4 text-center infobox_inner">
-      <h3 class="heading-b -white">{{item.title}}</h3>
-      <p class="-white">{{item.text}}</p>
+      <h3 class="heading-c -white">{{item.title}}</h3>
+      <p class="-white -small">{{item.text}}</p>
     </div>
   {% endfor %}
 </div>

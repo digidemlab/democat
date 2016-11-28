@@ -1,0 +1,18 @@
+//
+// Links and buttons
+
+.text-link,
+a {
+  color: $link-color;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0.05em 0.15em 0.15em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $link-color;
+    background-color: $pink-light;
+    border-radius: 0.2em;
+  }
+}
