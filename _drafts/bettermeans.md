@@ -1,6 +1,5 @@
 ---
 title: BetterMeans
-date:
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives

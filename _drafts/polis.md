@@ -1,6 +1,5 @@
 ---
 title: Pol.is
-date:
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
