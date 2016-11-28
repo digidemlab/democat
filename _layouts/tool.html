@@ -2,11 +2,11 @@
 layout: global
 ---
 
-<h1>
+<h1 class="text-center heading-a">
   <small>{{page.categories[0]}} {{page.description}}</small><br>
   {{page.title}}
 </h1>
-<p class="lead">{{page.summary}}</p>
+<p class="text-center lead">{{page.summary}}</p>
 
 <img src="{{site.baseurl}}/assets/images/png/{{page.image}}">
 
@@ -23,7 +23,7 @@ layout: global
 
 {{content}}
 
-<h2>Resources & Links</h2>
+<h2 class="heading-b">Resources & Links</h2>
 <ul class="nav nav-pills nav-stacked">
   {% if page.website %}
     <li><a href="{{page.website}}">{{page.title}} website</a></li>
