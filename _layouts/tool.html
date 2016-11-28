@@ -2,11 +2,14 @@
 layout: global
 ---
 
-<h1 class="text-center heading-a">
-  <small>{{page.categories[0]}} {{page.description}}</small><br>
-  {{page.title}}
-</h1>
-<p class="text-center lead">{{page.summary}}</p>
+<div class="category-lead row">
+  <p class="col-sm-12 col-md-10 col-md-offset-1 text-center category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+</div>
+<div class="tool-intro cointainer row">
+  <div class="icon-heart text-center"></div>
+  <h1 class="text-center heading-a">{{page.title}}</h1>
+  <p class="col-sm-12 col-md-6 col-md-offset-3 text-center summary">{{page.summary}}</p>
+</div>
 
 <img src="{{site.baseurl}}/assets/images/png/{{page.image}}">
 
