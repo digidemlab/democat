@@ -2,15 +2,14 @@
 layout: global
 ---
 
-<div class="row">
-  <div class="col-sm-12 hero">
-    <div class="panel panel-default">
-      <div class="panel-body text-center">
-        <h1>{{page.summary}}</h1>
-      </div>
+<div class="hero-wrap"> 
+    <div class="hero-caption">
+        <div class="hero-caption-inner">
+            <div class="hero-caption-content">
+                <h1 class="heading-a -white text-center">{{page.summary}}</h1>
+            </div>
+        </div>
     </div>
-    <img class="hero col-sm-12" src="{{site.baseurl}}/assets/images/jpg/hero-village.jpg">
-  </div>
 </div>
 
 {% include content/democat.html cat="happy" %}
