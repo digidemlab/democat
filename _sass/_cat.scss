@@ -1,0 +1,23 @@
+//
+// Cat
+
+.cat {
+  background-color: $purple-light;
+  border-radius: 6em;
+
+  &_quote {
+    color: $purple;
+    font-family: $font-family-cat;
+    padding: 1em;
+  }
+
+  .icon-triangle {
+    position: absolute;
+    bottom: -20px;
+    left: 43%;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}

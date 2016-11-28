@@ -4,7 +4,7 @@ body, html {
 }
 
 img {
-  width: 100%;
+//  width: 100%;
   height: auto;
 }
 
@@ -12,15 +12,15 @@ img {
   margin-bottom: 1em;
 }
 
-// Cat speach bubble
-.cat {
-  background-color: $purple-light;
-  max-width: 20em;
-  border-radius: 6em;
+.icon-triangle {
+  width: 33px;
+  height: 24px;
+  margin: 0 auto;
+  background-image: url(../../assets/images/svg/icon-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-  &_quote {
-    color: $purple;
-    font-family: $font-family-cat;
-    padding: 1em;
-  }
+.visually-hidden {
+  display: none;
 }
