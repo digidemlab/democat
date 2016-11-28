@@ -12,22 +12,13 @@ img {
   margin-bottom: 1em;
 }
 
-.icon-triangle {
-  width: 33px;
-  height: 24px;
-  margin: 0 auto;
-  background-image: url(../../assets/images/svg/icon-triangle.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .visually-hidden {
   display: none;
 }
 
 .infobox {
   background-color: $purple;
-  
+
   &_inner {
     padding: 1.5em;
   }

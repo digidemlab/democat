@@ -20,6 +20,10 @@
   &.-italic {
     font-style: italic;
   }
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 2.5em;
+  }
 }
 
 .heading-b {
@@ -40,9 +44,40 @@ p {
   }
 }
 
-.lead {
+.summary {
   font-size: 1.125em;
   line-height: 1.750em;
   font-family: $font-family-sans-serif;
   color: $purple;
+  padding: 1em 0 3em;
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 1.5em;
+  }
+}
+
+.category-lead {
+  margin: 5em 0;
+
+  &_text {
+    font-size: 1.875em;
+    line-height: 1.25em;
+    font-family: $font-family-sans-serif;
+    color: $purple;
+    font-style: italic;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 2.5em;
+    }
+  }
+}
+
+.tool-intro {
+  background-color: $purple-light;
+  margin-top: 2em;
+
+  .icon-heart {
+    bottom: 0.375em;
+    position: relative;
+  }
 }
