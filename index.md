@@ -1,6 +1,5 @@
 ---
 title: Welcome to Didigem Guide
-layout: start
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.
 democat: I'll be your guide to find your purrfect tool
@@ -18,5 +17,6 @@ infobox:
   id: better
   text: Find out what people think, what people want and do something about it. We
     can find the right tool to help promote discussion and collective decisions.
+layout: start
 ---
 
