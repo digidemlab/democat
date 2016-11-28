@@ -9,11 +9,11 @@
 	min-width:280px;
 	margin:auto;
 	position:relative;
+	/*@media screen and (max-width: $break-small) {
 
+	}*/
 }
-@media (min-width: $screen-sm-min){
-	
-}
+
 
 	img {
 		width:100%;
