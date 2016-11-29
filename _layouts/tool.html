@@ -2,30 +2,39 @@
 layout: global
 ---
 
-<div class="category-lead row">
-  <p class="col-sm-12 col-md-10 col-md-offset-1 text-center category-lead_text">{{page.categories[0]}} {{page.description}}</p>
-</div>
-<div class="tool-intro cointainer row">
-  <div class="icon-heart text-center"></div>
-  <h1 class="text-center heading-a">{{page.title}}</h1>
-  <p class="col-sm-12 col-md-6 col-md-offset-3 text-center summary">{{page.summary}}</p>
+<div class="container">
+  <div class="row category-lead">
+    <p class="col-sm-12 col-md-10 col-md-offset-1 text-center category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+  </div>
 </div>
 
-<img class="image-tool" src="{{site.baseurl}}/assets/images/png/{{page.image}}">
+<div class="tool-intro container-full-width">
+  <div class="container">
+    <div class="row">
+      <div class="icon-heart text-center"></div>
+      <h1 class="text-center heading-a">{{page.title}}</h1>
+      <p class="col-sm-12 col-md-6 col-md-offset-3 text-center summary">{{page.summary}}</p>
+    </div>
+  </div>
+</div>
 
-<dl>
-  <dt>Participants</dt>
-  <dd>{{page.participants}}</dd>
-  <dt>Preparations</dt>
-  <dd>{{page.preparations}}</dd>
-  <dt>Difficulty</dt>
-  <dd>{{page.difficulty}}</dd>
-</dl>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      <img class="image-tool" src="{{site.baseurl}}/assets/images/png/{{page.image}}">
+    </div>
+  </div>
+</div>
 
-{% include content/democat.html cat="happy" %}
-<div class="row">
-  <div class="tool-content col-sm-12 col-md-6 col-md-offset-3">
-    {{content}}
+<div class="container">
+  {% include content/shortfacts.html %}
+
+  {% include content/democat.html cat="happy" %}
+
+  <div class="row">
+    <div class="tool-content col-sm-12 col-md-6 col-md-offset-3">
+      {{content}}
+    </div>
   </div>
 </div>
 
@@ -33,19 +42,21 @@ layout: global
   {% include content/quote.html %}
 {% endif %}
 
-<h2 class="heading-b">Resources & Links</h2>
-<ul class="nav nav-pills nav-stacked">
-  {% if page.website %}
-    <li><a href="{{page.website}}">{{page.title}} website</a></li>
-  {% endif %}
-  {% if page.documentation %}
-    <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
-  {% endif %}
-  {% if page.twitter %}
-    <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
-  {% endif %}
-</ul>
+<div class="container">
+  <h2 class="heading-b">Resources & Links</h2>
+  <ul class="nav nav-pills nav-stacked">
+    {% if page.website %}
+      <li><a href="{{page.website}}">{{page.title}} website</a></li>
+    {% endif %}
+    {% if page.documentation %}
+      <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
+    {% endif %}
+    {% if page.twitter %}
+      <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
+    {% endif %}
+  </ul>
 
-<div class="col-sm-12 text-center">
-  <a class="btn btn-default" href="{{site.baseurl}}" role="button">Show me something else</a>
+  <div class="col-sm-12 text-center">
+    <a class="btn btn-default" href="{{site.baseurl}}" role="button">Show me something else</a>
+  </div>
 </div>

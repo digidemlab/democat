@@ -3,68 +3,78 @@ layout: global
 ---
 
 <!--<div class="cover-color">-->
-  <div class="hero-wrap">
-    <div class="hero-caption">
-      <div class="hero-caption-inner">
-        <div class="hero-caption-content">
-          <h1 class="heading-hero text-center">{{page.summary}}</h1>
+  <div class="hero-wrap container-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 text-center hero-caption">
+          <div class="hero-caption_content">
+            <h1 class="heading-hero">{{page.summary}}</h1>
+            <a href="#tool-listing" class="button-cta">Find your tool!</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 <!--</div>-->
-
-// Democat
-<div class="row">
-  <div class="col-md-4 col-md-offset-4 text-center">
-    <div class="cat">
-      <h2 class="cat_quote">I'll be your guide to find your purrfect tool</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+      <div class="cat">
+        <h2 class="cat_quote">I'll be your guide to find your purrfect tool</h2>
+      </div>
+      <div class="icon-triangle"></div>
+      <div class="img-cat-mouse"></div>
     </div>
-    <div class="icon-triangle"></div>
-    <div class="img-cat-mouse"></div>
   </div>
 </div>
 
-<div class="row infobox">
-  {% for item in page.infobox %}
-    <div class="col-sm-4 text-center infobox_inner">
-      <h3 class="heading-c -white">{{item.title}}</h3>
-      <p class="-white -small">{{item.text}}</p>
+<div class="infobox">
+  <div class="container">
+    <div class="row">
+    {% for item in page.infobox %}
+      <div class="col-sm-4 text-center">
+        <h3 class="heading-c -white">{{item.title}}</h3>
+        <p class="-white -small">{{item.text}}</p>
+      </div>
+    {% endfor %}
     </div>
-  {% endfor %}
-</div>
-
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <h2 class="heading-a -italic">I want to…</h2>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-sm-12">
-    <dl>
-      {% comment %}
-      #
-      #  Change date order by adding '| reversed'
-      #  To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
-      #
-      {% endcomment %}
-      {% assign sorted_cats = site.categories | sort %}
-      {% for category in sorted_cats %}
-      {% assign sorted_posts = category[1] | reversed %}
-        <dt id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
-        <dd>
-          <ul class="list-unstyled">
-          {% for post in sorted_posts %}
-            <li>
-         	    <a href="{{site.baseurl}}{{post.url}}">
-                <div>{{post.description}}</div>
-                <div>{{post.title}}</div>
-              </a>
-            </li>
-          {% endfor %}
-        </dd>
-      {% endfor %}
-    </dl>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h2 class="heading-a -italic"><a name="tool-listing" class="clean-link">I want to…</a></h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-md-offset-3">
+      <dl>
+        {% comment %}
+        #
+        #  Change date order by adding '| reversed'
+        #  To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
+        #
+        {% endcomment %}
+        {% assign sorted_cats = site.categories | sort %}
+        {% for category in sorted_cats %}
+        {% assign sorted_posts = category[1] | reversed %}
+          <dt class="heading-c -italic" id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
+          <dd>
+            <ul class="list-unstyled">
+            {% for post in sorted_posts %}
+              <li class="list-tool">
+           	    <a href="{{site.baseurl}}{{post.url}}">
+                  <div class="list-tool_description">{{post.description}}</div>
+                  <div class="list-tool_title">{{post.title}}</div>
+                  <img src="{{site.baseurl}}/assets/images/svg/icon-arrow-pink.svg" alt="" class="list-tool_arrow">
+                </a>
+              </li>
+            {% endfor %}
+          </dd>
+        {% endfor %}
+      </dl>
+    </div>
   </div>
 </div>

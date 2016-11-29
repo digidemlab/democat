@@ -1,13 +1,15 @@
-<div class="quote container">
-  <div class="col-sm-12 col-md-8 col-md-offset-2 text-center">
-    <div class="icon-quote"></div>
-    <div class="row">
-      <blockquote>{{page.quote}}</blockquote>
-    </div>
-    {% if page.source %}
+<div class="quote container-full-width">
+  <div class="container">
+    <div class="col-sm-12 col-md-8 col-md-offset-2 text-center">
+      <div class="icon-quote"></div>
       <div class="row">
-        <div class="quote_source">{{page.source}}</div>
+        <blockquote>{{page.quote}}</blockquote>
       </div>
-    {% endif %}
+      {% if page.source %}
+        <div class="row">
+          <div class="quote_source">{{page.source}}</div>
+        </div>
+      {% endif %}
+    </div>
   </div>
 </div>

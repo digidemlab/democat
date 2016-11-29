@@ -64,12 +64,16 @@
     color: $white;
   }
 
+  &.-italic {
+    font-style: italic;
+  }
+
   @media screen and (min-width: $break-medium) {
     font-size: 2em;
   }
 }
 
-// Paragraph
+// Paragraph body text
 p,
 .body-text {
   font-family: $font-family-sans-serif;
@@ -151,7 +155,6 @@ p,
 
 .tool-intro {
   background-color: $purple-light;
-  margin-top: 2em;
 
   .icon-heart {
     bottom: 0.375em;

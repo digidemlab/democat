@@ -26,3 +26,48 @@ a {
     }
   }
 }
+
+// Call to action button
+.button-cta {
+  background-color: $link-color;
+  border-radius: 5em;
+  color: $white;
+  padding: 1.5em 3em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @media screen and (max-width: $break-small) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $pink-light;
+    text-decoration: none;
+  }
+
+  .-white {
+    background-color: $white;
+    color: $link-color;
+  }
+}
+
+// Remove link styling
+.clean-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+  }
+}
