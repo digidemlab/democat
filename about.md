@@ -5,7 +5,6 @@ summary: Practical tools to create communities and make decisions together.
 layout: page
 ---
 
-
 ## Mission
 
 Digidem Guide’s aim is to bring democracy into everyday life. We bring the best digital tools available into one space, so you can find the right one for your needs. We do the hard work so you don’t have to!
