@@ -1,11 +1,11 @@
 //
 // images
 
-@mixin set-bg-color($color, $gradient){
-	linear-gradient(
-      rgba($color, $gradient), 
-      rgba($color, $gradient)
-    )
+@mixin set-colored-bg-image($bgcolor, $bggradient, $bgimage){
+	background: linear-gradient(
+      rgba($bgcolor, $bggradient), 
+      rgba($bgcolor, $bggradient)
+    ), url($bgimage);
 }
 
 .hero {
@@ -16,14 +16,14 @@
 	min-width: 280px;
 	margin: auto;
 	position: relative;
-	background: @include set-bg-color($purple, 0.12), url(../images/jpg/hero-village-desktop.jpg);	
+	@include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-desktop.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 600px;
 	@media screen and (max-width: $break-small) {
 		font-size: 1.1rem;
 		height: 200px;
-		background: @include set-bg-color($purple, 0.12), url(../images/jpg/hero-village.jpg);
+		@include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village.jpg');
 	}
 }
 
