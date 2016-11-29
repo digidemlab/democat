@@ -9,23 +9,27 @@
 	min-width: 280px;
 	margin: auto;
 	position: relative;
-  opacity: 0.8;
-	background: url(../images/jpg/hero-village-desktop.jpg);
+	background: linear-gradient(
+      rgba($purple, 0.15), 
+      rgba($purple, 0.15)
+    ), url(../images/jpg/hero-village-desktop.jpg);
+	background-color: #900;
 	background-size: cover;
 	background-position: center center;
-	/*border: 10px solid #900;*/
 	height: 600px;
 	@media screen and (max-width: $break-small) {
 		font-size: 1.1rem;
 		height: 200px;
-		background: url(../images/jpg/hero-village.jpg);
-		/*border: 10px solid #090;*/
+		background: linear-gradient(
+	      rgba($purple, 0.15), 
+	      rgba($purple, 0.15)
+	    ), url(../images/jpg/hero-village.jpg);
 	}
 }
 
 .hero-caption {
 	position:absolute;
-  z-index: 2;
+  	z-index: 2;
 	top:5px;
 	left:0;
 	right:0;
