@@ -13,7 +13,7 @@
       rgba($purple, 0.15), 
       rgba($purple, 0.15)
     ), url(../images/jpg/hero-village-desktop.jpg);
-	background-color: #900;
+	background-color: $purple;
 	background-size: cover;
 	background-position: center center;
 	height: 600px;
