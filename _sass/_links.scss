@@ -13,6 +13,16 @@ a {
   &:active {
     color: $link-color;
     background-color: $pink-light;
-    border-radius: 0.2em;
+  }
+
+  &.-white {
+    color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $purple-light;
+      background-color: $purple;
+    }
   }
 }

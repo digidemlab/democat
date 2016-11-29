@@ -22,11 +22,30 @@
   }
 }
 
-.img-cat-mouse {
-  width: 9.063em;
-  height: 9.000em;
-  margin: 0 auto;
-  background-image: url(../../assets/images/svg/img-cat-mouse.svg);
+%cat-image {
+  width: 11.875em;
+  height: 11.875em;
+  margin: 1em auto 2em;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.img-cat-mouse {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-mouse.svg);
+}
+
+.img-cat-proud {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-proud.svg);
+}
+
+.img-cat-happy {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-proud.svg);
+}
+
+.img-cat-back {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-back.svg);
 }
