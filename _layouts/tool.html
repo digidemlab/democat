@@ -31,10 +31,12 @@ layout: global
   {% include content/democat.html cat="happy" %}
 
   <div class="row">
-    <div class="tool-content col-sm-12 col-md-6 col-md-offset-3">
+    <div class="tool-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
       {{content}}
     </div>
   </div>
+
+  {% include content/resources.html %}
 </div>
 
 {% if page.quote %}
@@ -42,19 +44,6 @@ layout: global
 {% endif %}
 
 <div class="container">
-  <h2 class="heading-b">Resources & Links</h2>
-  <ul class="nav nav-pills nav-stacked">
-    {% if page.website %}
-      <li><a href="{{page.website}}">{{page.title}} website</a></li>
-    {% endif %}
-    {% if page.documentation %}
-      <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
-    {% endif %}
-    {% if page.twitter %}
-      <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
-    {% endif %}
-  </ul>
-
   <div class="col-sm-12 text-center">
     <a class="btn btn-default" href="{{site.baseurl}}" role="button">Show me something else</a>
   </div>

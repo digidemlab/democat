@@ -14,7 +14,7 @@
   &:focus,
   &:active {
     border-color: $link-color;
-    background-color: $pink-light;
+    background-color: $link-hover-color;
     -webkit-box-shadow: 0 2px 0 0 $link-color;
     -moz-box-shadow: 0 2px 0 0 $link-color;
     box-shadow: 0 2px 0 0 $link-color;
@@ -22,10 +22,10 @@
 
   &_description {
     font-size: 1.250em;
-    line-height: 1.750em;
+    line-height: 1.50em;
     text-decoration: none;
     font-family: $font-family-sans-serif;
-    color: $purple;
+    color: $link-color;
     font-weight: normal;
     font-style: italic;
     margin-bottom: 0.5em;
@@ -46,4 +46,8 @@
     height: 1em;
     width: 1.188em;
   }
+}
+
+ul {
+
 }

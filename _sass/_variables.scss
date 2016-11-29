@@ -21,14 +21,15 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
-$purple:                #9a24f4 !default;
-$purple-light:          #f6ebfe !default;
-$blue:                  #0425f3 !default;
-$blue-light:            #e0e4fd !default;
-$pink:                  #ff21f5 !default;
-$pink-light:            #ffecfe !default;
+$purple:                #BD19E6 !default;
+$purple-light:          #FBECFF !default;
+$blue:                  #5F00D0 !default;
+$blue-light:            #E0E4FD !default;
+$pink:                  #BD19E6 !default;
+$pink-light:            #FBECFF !default;
 $black:                 #3d3d3d !default;
-$white:                 #fff !default;
+$white:                 #fff    !default;
+$yellow:                #ffff00 !default;
 
 
 //== Scaffolding
@@ -41,9 +42,9 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $pink !default;
+$link-color:            $blue !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%);
+$link-hover-color:      $blue-light !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
@@ -80,7 +81,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 $headings-font-family:    inherit !default;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$headings-color:          $blue !default;
 
 
 //== Iconography

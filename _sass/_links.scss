@@ -12,7 +12,7 @@ a {
   &:focus,
   &:active {
     color: $link-color;
-    background-color: $pink-light;
+    background-color: $link-hover-color;
   }
 
   &.-white {
@@ -40,13 +40,9 @@ a {
   &:hover,
   &:focus,
   &:active {
-    background-color: $pink-light;
+    background-color: $link-hover-color;
     text-decoration: none;
-  }
-
-  .-white {
-    background-color: $white;
-    color: $link-color;
+    color: $blue;
   }
 }
 
