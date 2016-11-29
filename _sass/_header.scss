@@ -2,8 +2,56 @@
 // Header
 // --------------------------------------------------
 
-
 .header {
   background-color: $purple;
-  padding: 1em;
+}
+
+.navbar-custom {
+  position: relative;
+  float: right;
+  margin: 0.9em 0 0;
+
+  &_item {
+    position: relative;
+
+    &_link {
+      color: $white;
+      text-decoration: none;
+      padding: 2em;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $purple;
+        background-color: $white;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.navbar-toggle .icon-bar {
+  background-color: $white !important;
+  width: 26px;
+  height: 3px;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 1.3em;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.navbar-default {
+  border: 0;
 }
