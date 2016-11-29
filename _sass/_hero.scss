@@ -22,8 +22,9 @@
 	height: 37.5em;
 
 	@media screen and (max-width: $break-small) {
-		height: 12.5em;
-    @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village.jpg');
+		height: 17em;
+    @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-mobile.jpg');
+    background-position: center center;
 	}
 }
 

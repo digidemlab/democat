@@ -12,11 +12,11 @@
 .heading-hero {
   @extend %heading;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   color: $white;
   text-shadow: 0 0 1em #000;
 
-  @media screen and (min-width: $break-medium) {
+  @media screen and (min-width: $break-large) {
     font-size: 3em;
   }
 }
