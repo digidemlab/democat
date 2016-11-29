@@ -1,5 +1,5 @@
 ---
-title: About Didigem Guide
+title: About Digidem Guide
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.
 layout: page
