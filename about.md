@@ -19,7 +19,7 @@ There is a growing field of digital tools to facilitate democratic processes on 
 
 ## Process
 
-The levels of participation used in this guide was influenced by the Swedish municipalities Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the D-CENT project’s DemocracySpiral, which has a more horizontal and participation driven view on participation and digital democracy.
+The levels of participation used in this guide was inspired by the Swedish municipalities Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the DemocracySpiral by the D-CENT project, which has a more horizontal and participation driven approach to democratic processes and digital participation.
 
 [Illustration]
 
@@ -51,7 +51,7 @@ Transparency and assessment
 
 I want to give feedback and evaluate
 
-The first and foremost criteria for selection is the that the community of users think that the tools are adding real value to democratic processes.
+The first and foremost criteria for the tools selected for this guide is that they are *adding real value to democratic processes*.
 
 The initial selection of tools was based on recommendations from the international community of ninety experts gathered at the Inteligencia Colectiva Para La Democracia 2016. From the XX tools most favoured by the community, the Digidem Guide Working Group has selected XX tools for each level of participation most in line with the following criteria:
 
