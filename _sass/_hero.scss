@@ -3,7 +3,7 @@
 
 @mixin set-colored-bg-image($bgcolor, $bggradient, $bgimage){
 	background: linear-gradient(
-      rgba($bgcolor, $bggradient), 
+      rgba($bgcolor, $bggradient),
       rgba($bgcolor, $bggradient)
     ), url($bgimage);
 }
@@ -47,7 +47,7 @@
 	display:table-cell;
 	vertical-align:middle;
 	.heading-hero {
-		padding: 5rem;
+		padding: 2rem 5rem;
 		margin: 5rem;
 		@media screen and (max-width: $break-small) {
 			padding: 1.2rem;
