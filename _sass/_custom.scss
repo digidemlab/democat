@@ -19,13 +19,10 @@ img {
 // Infobox on start page
 .infobox {
   background-color: $purple;
-
-  &_inner {
-    padding: 2.5em;
-  }
+  padding: 2.5em;
 }
 
-.container {
+.container-full-width {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
