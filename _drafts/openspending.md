@@ -1,11 +1,12 @@
 ---
 title: OpenSpending
-date: 2016-11-28 09:32:09.141000000 Z
+date: 2016-11-28 09:32:00 Z
 categories:
 - Decide on an issue
-description: decide on an issue by exploring arguments and objectives
-summary: Use Loomio to make decisions without a mess of emails or meetings. Invite
-  anyone to your conversation, structure the debate and finally vote. Easy right?
+description: 
+summary: Open Spending allows you to understand how different organisations spend
+  money. You can search existing data, upload your own and the programme provides
+  visualisations to make finance easier to understand.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
