@@ -12,9 +12,7 @@ participants: Anyone
 preparations: Web
 difficulty: 'Easy. '
 democat: toes
-democatsays: There are local FixMyStreet sites in 13 countries, spread across Europe,
-  Australia, Asia and Africa.  If it's not available in your country you can set up
-  your own.
+democatsays: You can already fix your street in 13 countries across 4 continents!
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
   just opposite my house! People just dump stuff from their car windows. \nI reported
   the eyesore, both on FixMyStreet and to Croydon Council. I believe that when reports
@@ -37,3 +35,4 @@ FixMyStreet makes it easy for anyone to report a problem without worrying about 
 * We send it to the council on your behalf
 * Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
 
+## Benefits
