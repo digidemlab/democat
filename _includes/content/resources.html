@@ -1,16 +1,22 @@
-<div class="row">
-  <div class="tool-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-    <h2 class="heading-b">Resources & Links</h2>
-    <ul class="list-unstyled">
-      {% if page.website %}
-        <li><a href="{{page.website}}">{{page.title}} website</a></li>
-      {% endif %}
-      {% if page.documentation %}
-        <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
-      {% endif %}
-      {% if page.twitter %}
-        <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
-      {% endif %}
-    </ul>
+<div class="container-full-width -blue-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="resources">
+          <h2 class="heading-b">Resources & Links</h2>
+          <ul class="list-unstyled">
+            {% if page.website %}
+              <li><a href="{{page.website}}">{{page.title}} website</a></li>
+            {% endif %}
+            {% if page.documentation %}
+              <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
+            {% endif %}
+            {% if page.twitter %}
+              <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

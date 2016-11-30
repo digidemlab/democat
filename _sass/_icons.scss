@@ -1,29 +1,53 @@
 //
 // Icons
 
-.icon-triangle {
-  width: 33px;
-  height: 24px;
-  margin: 0 auto;
-  background-image: url(../../assets/images/svg/icon-triangle.svg);
+%icon {
   background-repeat: no-repeat;
   background-size: 100%;
+  margin: 0 auto;
+}
+
+.icon-triangle {
+  @extend %icon;
+  width: 33px;
+  height: 24px;
+  background-image: url(../../assets/images/svg/icon-triangle.svg);
 }
 
 .icon-heart {
+  @extend %icon;
   width: 1.250em;
   height: 1.250em;
-  margin: 0 auto;
   background-image: url(../../assets/images/svg/icon-heart.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .icon-quote {
+  @extend %icon;
   height: 2.5em;
   width: 1.688em;
-  margin: 0 auto;
   background-image: url(../../assets/images/svg/icon-quote.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
+
+.icon-hands {
+  @extend %icon;
+  height: 2.813em;
+  width: 4.250em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-hands.svg);
+}
+
+.icon-thumb {
+  @extend %icon;
+  height: 3.125em;
+  width: 2.813em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-thumb.svg);
+}
+
+.icon-clock {
+  @extend %icon;
+  height: 2.813em;
+  width: 2.813em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-clock.svg);
 }
