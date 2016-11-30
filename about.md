@@ -53,7 +53,7 @@ I want to give feedback and evaluate
 
 The first and foremost criteria for the tools selected for this guide is that they are *adding real value to democratic processes*.
 
-The initial selection of tools was based on recommendations from the international community of ninety experts gathered at the Inteligencia Colectiva Para La Democracia 2016. From the XX tools most favoured by the community, the Digidem Guide Working Group has selected XX tools for each level of participation most in line with the following criteria:
+The initial selection of tools was based on recommendations from the international community of ninety experts gathered at the Inteligencia Colectiva Para La Democracia 2016. From the 18 tools most favoured by the community, the Digidem Guide Working Group has selected 6 tools in line with the following criteria:
 
 ### User friendly
 Easy to set up for facilitators; intuitive and user friendly for participants.
@@ -77,3 +77,5 @@ Manuel Vega-Cuberos, Researcher
 Ramsés Lopez, Researcher  
 Sara Woodgate, Communication Strategist  
 Jennie Lindell, Graphic Designer  
+
+![digidemlabteam.jpeg](/uploads/digidemlabteam.jpeg)
