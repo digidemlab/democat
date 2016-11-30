@@ -18,6 +18,19 @@
   }
 }
 
+.shortfact {
+
+  padding-bottom: 1em;
+
+  &_inner {
+    padding: 1em 0;
+
+    @media screen and (min-width: $break-medium) {
+      padding: 2em 0;
+    }
+  }
+}
+
 .tool-intro {
 
   .icon-heart {
@@ -31,7 +44,7 @@
   line-height: 1.750em;
   font-family: $font-family-sans-serif;
   color: $blue;
-  padding: 1em 0 3em;
+  padding: 1em 0;
 
   @media screen and (min-width: $break-medium) {
     font-size: 1.5em;

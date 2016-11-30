@@ -11,7 +11,7 @@
 
 .heading-hero {
   @extend %heading;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1.3em;
   color: $white;
   text-shadow: 0 0 1em #000;
@@ -24,7 +24,8 @@
 // Heading a
 .heading-a {
   @extend %heading;
-  font-size: 2em;
+  font-size: 1.7em;
+  line-height: 1.3em;
 
   &.-white {
     color: $white;
@@ -76,6 +77,7 @@
 // Paragraph body text
 p,
 ul,
+ol,
 .body-text {
   font-family: $font-family-sans-serif;
   font-size: 1.125em;

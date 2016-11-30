@@ -83,25 +83,29 @@ a {
 
 
 // Tool listing
-.list-tool {
-  border: solid 1px $gray-light;
-  border-radius: 0.375em;
-  padding: 1em 1.5em 1.5em;
-  -webkit-box-shadow: 0 2px 0 0 $gray-light;
-  -moz-box-shadow: 0 2px 0 0 $gray-light;
-  box-shadow: 0 2px 0 0 $gray-light;
-  margin: 0.5em 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+.tool-listing {
+  margin: 2em;
 
-  &:hover,
-  &:focus,
-  &:active {
-    border-color: $link-color;
-    background-color: $link-hover-color;
-    -webkit-box-shadow: 0 2px 0 0 $link-color;
-    -moz-box-shadow: 0 2px 0 0 $link-color;
-    box-shadow: 0 2px 0 0 $link-color;
+  &_item {
+    border: solid 1px $gray-light;
+    border-radius: 0.375em;
+    padding: 1em 1.5em 1.5em;
+    -webkit-box-shadow: 0 2px 0 0 $gray-light;
+    -moz-box-shadow: 0 2px 0 0 $gray-light;
+    box-shadow: 0 2px 0 0 $gray-light;
+    margin: 0.5em 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: $link-color;
+      background-color: $link-hover-color;
+      -webkit-box-shadow: 0 2px 0 0 $link-color;
+      -moz-box-shadow: 0 2px 0 0 $link-color;
+      box-shadow: 0 2px 0 0 $link-color;
+    }
   }
 
   &_description {

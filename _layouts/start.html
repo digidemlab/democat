@@ -8,14 +8,14 @@ layout: global
       <div class="row">
         <div class="col-sm-12 col-md-10 col-md-offset-1 text-center hero-caption">
           <div class="hero-caption_content">
-            <h1 class="heading-hero">{{page.summary}}</h1>            
+            <h1 class="heading-hero">{{page.summary}}</h1>
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
-  <div class="row">        
+  <div class="row">
         <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
           <a href="#tool-listing" class="button-cta hero-button">Find your tool!</a>
         </div>
@@ -53,10 +53,10 @@ layout: global
 </div>
 
 <div class="container">
-  <div class="margin">
+  <div class="tool-listing">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="heading-a -italic"><a name="tool-listing" class="clean-link">I want to…</a></h2>
+        <h2 class="heading-a -italic"><a name="tool-listing_link" class="clean-link">I want to…</a></h2>
       </div>
     </div>
 
@@ -76,11 +76,11 @@ layout: global
             <dd>
               <ul class="list-unstyled">
               {% for post in sorted_posts %}
-                <li class="list-tool">
+                <li class="tool-listing_item">
              	    <a href="{{site.baseurl}}{{post.url}}">
-                    <div class="list-tool_description">{{post.description}}</div>
-                    <div class="list-tool_title">{{post.title}}</div>
-                    <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="list-tool_arrow">
+                    <div class="tool-listing_description">{{post.description}}</div>
+                    <div class="tool-listing_title">{{post.title}}</div>
+                    <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
                   </a>
                 </li>
               {% endfor %}
