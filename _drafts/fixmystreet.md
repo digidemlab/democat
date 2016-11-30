@@ -2,15 +2,15 @@
 title: FixMyStreet
 date: 2016-11-28 09:32:00 Z
 categories:
-- Decide on an issue
-description: decide on an issue by exploring arguments and objectives
+- Get involved
+description: by reporting issues to your local authority
 summary: Mapping and reporting street problems to the councils responsible for fixing
   them – now you can get that pot hole filled in without dealing with bureaucrats.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-participants: Small to medium sized groups
-preparations: Sign up or log in with Facebook to create a group
-difficulty: Easy. Use on website or iPhone or Android app
+participants: Anyone
+preparations: Web
+difficulty: 'Easy. '
 democat: toes
 democatsays: There are local FixMyStreet sites in 13 countries, spread across Europe,
   Australia, Asia and Africa.  If it's not available in your country you can set up
@@ -28,7 +28,12 @@ twitter: "@fixmystreet"
 
 ## What is it and why should I use it?
 
+FixMyStreet makes it easy for anyone to report a problem without worrying about the correct authority to send it to. FixMyStreet takes care of that using the problem’s location and category, and sends a report to the department or body responsible for fixing it. Additional features are available for staff users working for the authorities who are actually fixing problems.
 
 ## How do I use it?
 
+* Enter a nearby postcode, or street name and area, or choose to locate automatically 
+* Locate the problem on a map of the areaEnter details of the problem
+* We send it to the council on your behalf
+* Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
 
