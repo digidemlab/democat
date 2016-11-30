@@ -11,7 +11,7 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Anyone
 preparations: Web
 difficulty: 'Easy. '
-democat: toes
+democat: happy
 democatsays: You can already fix your street in 13 countries across 4 continents!
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
   just opposite my house! People just dump stuff from their car windows. \nI reported
