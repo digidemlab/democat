@@ -70,12 +70,12 @@ The Digidem Guide is looking for sponsors and partners to be able to continue ou
 
 ## The Digidem Guide 2016 Working Group
 
-Petter Joelson, Project Coordinator  
-Nassia Panagiotidi, Researcher & Designer  
-Nicolás Diaz, Developer  
-Manuel Vega-Cuberos, Researcher  
-Ramsés Lopez, Researcher  
-Sara Woodgate, Communication Strategist  
-Jennie Lindell, Graphic Designer  
+**Petter Joelson**, Project Coordinator  
+**Nassia Panagiotidi**, Researcher & Designer  
+**Nicolás Diaz**, Developer  
+**Manuel Vega-Cuberos**, Researcher  
+**Ramsés Lopez**, Researcher  
+**Sara Woodgate**, Communication Strategist  
+**Jennie Lindell**, Graphic Designer  
 
 ![digidemlabteam.jpeg]({{site.baseurl}}uploads/digidemlabteam.jpeg)
