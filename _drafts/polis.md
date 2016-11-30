@@ -4,17 +4,18 @@ date: 2016-11-28 09:32:00 Z
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
-summary: Use Loomio to make decisions without a mess of emails or meetings. Invite
-  anyone to your conversation, structure the debate and finally vote. Easy right?
+summary: 'Use Polis to see how a discussion is evolving… in real time! Anyone can
+  put forward their opinion and we see the reaction instantly with the moving visualisation
+  of the group. '
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-participants: Small to medium sized groups
-preparations: Sign up or log in with Facebook to create a group
-difficulty: Easy. Use on website or iPhone or Android app
-democat: Talk to your IT-person for licensing!
-website: http://loomio.org/
-documentation: https://help.loomio.org
-twitter: Loomio
+participants: Unlimited. Better for large groups.
+preparations: Sign up or log in with Facebook to start a conversation.
+difficulty: Easy. Web based with no login required.
+democat: 
+website: https://pol.is
+documentation: https://docs.pol.is
+twitter: UsePolis
 ---
 
 ## What is it and why should I use it?
