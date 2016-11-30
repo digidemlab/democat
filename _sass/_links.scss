@@ -32,9 +32,9 @@ a {
 // Call to action button
 .button-cta,
 %button-cta {
-  background-color: $yellow;
+  background-color: $blue;
   border-radius: 5em;
-  color: $blue;
+  color: $blue-light;
   padding: 1.5em 3em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -42,6 +42,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   position: relative;
+  border: solid 1px $blue;
 
   &:hover,
   &:focus,
@@ -49,6 +50,10 @@ a {
     background-color: $link-hover-color;
     text-decoration: none;
     color: $blue;
+    border-color: $link-color;
+    -webkit-box-shadow: 0 2px 0 0 $link-color;
+    -moz-box-shadow: 0 2px 0 0 $link-color;
+    box-shadow: 0 2px 0 0 $link-color;
   }
 
   @media screen and (max-width: $break-small) {
@@ -58,6 +63,8 @@ a {
     width: 100%;
     border-radius: 0;
     z-index: 2;
+    background-color: $blue;
+    color: $blue-light;
   }
 }
 
@@ -72,5 +79,56 @@ a {
     background-color: transparent;
     text-decoration: none;
     color: inherit;
+  }
+}
+
+
+// Tool listing
+.list-tool {
+  border: solid 1px $gray-light;
+  border-radius: 0.375em;
+  padding: 1em 1.5em 1.5em;
+  -webkit-box-shadow: 0 2px 0 0 $gray-light;
+  -moz-box-shadow: 0 2px 0 0 $gray-light;
+  box-shadow: 0 2px 0 0 $gray-light;
+  margin: 0.5em 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $link-color;
+    background-color: $link-hover-color;
+    -webkit-box-shadow: 0 2px 0 0 $link-color;
+    -moz-box-shadow: 0 2px 0 0 $link-color;
+    box-shadow: 0 2px 0 0 $link-color;
+  }
+
+  &_description {
+    font-size: 1.250em;
+    line-height: 1.50em;
+    text-decoration: none;
+    font-family: $font-family-sans-serif;
+    color: $link-color;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5em;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 1.5em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  &_arrow {
+    position: relative;
+    bottom: 1em;
+    float: right;
+    height: 1em;
+    width: 1.188em;
   }
 }

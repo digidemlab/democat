@@ -1,0 +1,83 @@
+//
+// Content
+
+// Infobox on start page
+.infobox {
+  border-bottom: solid 2px $white;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media screen and (min-width: $break-small) {
+    border-bottom: none;
+  }
+
+  &_inner {
+    padding: 2em 0;
+  }
+}
+
+.tool-intro {
+
+  .icon-heart {
+    bottom: 0.375em;
+    position: relative;
+  }
+}
+
+.summary {
+  font-size: 1.125em;
+  line-height: 1.750em;
+  font-family: $font-family-sans-serif;
+  color: $blue;
+  padding: 1em 0 3em;
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 1.5em;
+  }
+}
+
+.category-lead {
+  margin: 2.5em 0 1.5em;
+
+  &_text {
+    font-size: 1.875em;
+    line-height: 1.5em;
+    font-family: $font-family-sans-serif;
+    color: $blue;
+    font-style: italic;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 2.5em;
+      margin: 1.5em 0 2em;
+    }
+  }
+}
+
+// Quote
+.quote {
+  padding: 5em 0 6em;
+
+  blockquote {
+    border-left: none;
+    color: $purple;
+    font-size: 1.125em;
+    line-height: 1.750em;
+    font-style: italic;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 1.500em;
+    }
+  }
+
+  &_source {
+    font-size: 1.125em;
+    color: $black;
+
+    &::before {
+      content: '–';
+      margin-right: 0.2em;
+    }
+  }
+}

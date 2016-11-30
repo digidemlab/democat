@@ -16,22 +16,32 @@ img {
   display: none;
 }
 
-// Infobox on start page
-.infobox {
-  background-color: $blue;
-  padding: 2.5em;
-}
-
 .container-full-width {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  &.-blue-light {
+    background-color: $blue-light;
+  }
+
+  &.-purple-light {
+    background-color: $purple-light;
+  }
+
+  &.-purple {
+    background-color: $purple;
+  }
+
+  &.-blue {
+    background-color: $blue;
+  }
 }
 
-.cover-color {
-  background-color: $purple;
-  background-size: cover;
+.resources {
+  padding: 2.5em 0 4em;
 }
+
 
 // Footer
 .footer {
