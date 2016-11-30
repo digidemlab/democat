@@ -23,6 +23,14 @@ Polis provides visual feedback from a group discussion. It’s useful for conduc
 
 ## How do I use it?
 
+You can have your first Polis conversation out in the world in less than a minute. Here's how.
+
+1. Once you're logged in, click +new
+2. Optionally give your conversation a topic and description
+3. Decide how much you would like to moderate the conversation
+4. Go to 'comments' on the left hand side, then go to 'seed'. Add some perspectives for people to vote on so that the conversation isn't empty when they arrive.
+5. Go to share and grab the link (it will look something like pol.is/55555) to paste into an email, a tweet, etc.
+6. Go to your conversation, watch responses roll in, etc.
 
 > Quote
 >
