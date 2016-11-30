@@ -31,11 +31,15 @@
 .hero-caption {
 	position:absolute;
   z-index: 2;
-	top:5px;
+	top:70px;
 	left:0;
 	right:0;
 	bottom:10px;
 	overflow:auto;
+
+  @media screen and (max-width: $break-small) {
+    top: 5px;
+  }
 
   &_content {
     //display:table-cell;
@@ -50,4 +54,12 @@
     	}
     }
   }
+}
+
+.hero-button {
+  top: -150px;
+  @media screen and (max-width: $break-small) {
+    top: 0px;
+  }
+
 }
