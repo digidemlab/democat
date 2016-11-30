@@ -11,8 +11,10 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
 preparations: Sign up or log in with Facebook to create a group
 difficulty: Easy. Use on website or iPhone or Android app
-democat: happy
-democatsays: Talk to your IT-person for licensing!
+democat: toes
+democatsays: There are local FixMyStreet sites in 13 countries, spread across Europe,
+  Australia, Asia and Africa.  If it's not available in your country you can set up
+  your own.
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
   just opposite my house! People just dump stuff from their car windows. \nI reported
   the eyesore, both on FixMyStreet and to Croydon Council. I believe that when reports
