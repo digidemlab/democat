@@ -11,13 +11,13 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
 preparations: Web
 difficulty: 'Easy. '
-democat: happy
-democatsays: Talk to your IT-person for licensing!
+democat: box
+democatsays: 'It''s best for simple questions, or feedback. '
 quote: 
 source: 
 website: www.allourideas.org
 documentation: 
-twitter: "@allourideas"
+twitter: allourideas
 ---
 
 ## What is it and why should I use it?
