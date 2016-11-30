@@ -58,6 +58,7 @@
 
 .hero-button {
   top: -150px;
+  z-index: 2;
   @media screen and (max-width: $break-small) {
     top: 0px;
   }
