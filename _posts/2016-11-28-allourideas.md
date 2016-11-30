@@ -17,7 +17,7 @@ quote:
 source: 
 website: www.allourideas.org
 documentation: 
-twitter: "@allourideas"
+twitter: allourideas
 ---
 
 ## What is it and why should I use it?
