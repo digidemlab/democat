@@ -9,7 +9,7 @@ summary: Use All Our Ideas to vote on existing ideas and allow people to add new
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
-preparations: Web
+preparations: Sign up at the website.
 difficulty: 'Easy. '
 democat: box
 democatsays: 
