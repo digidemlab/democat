@@ -1,6 +1,6 @@
 ---
 title: Pol.is
-date: 2016-11-28 09:32:09.276000000 Z
+date: 2016-11-28 09:32:00 Z
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
@@ -19,6 +19,7 @@ twitter: Loomio
 
 ## What is it and why should I use it?
 
+Polis provides visual feedback from a group discussion. It’s useful for conducting polls and finding out opinions, it shows you where the majority of people agree without dismissing the minority. It is based on direct participation therefore any participant can submit something for discussion.
 
 ## How do I use it?
 
