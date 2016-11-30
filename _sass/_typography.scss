@@ -42,10 +42,10 @@
 
 // Heading b
 .heading-b,
-.tool-content h2 {
+.content h2 {
   @extend %heading;
-  font-size: 1.5em;
-  margin-top: 1em;
+  font-size: 1.7em;
+  line-height: 1.3em;
 
   &.-white {
     color: $white;
@@ -56,7 +56,8 @@
   }
 }
 
-.heading-c {
+.heading-c,
+.content h3 {
   @extend %heading;
   font-size: 1.5em;
   margin-top: 1em;
