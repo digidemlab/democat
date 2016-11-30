@@ -12,13 +12,13 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
-democat: happy
-democatsays: Talk to your IT-person for licensing!
+democat: toes
+democatsays: 
 quote: 
 source: 
-website: http://loomio.org/
-documentation: https://help.loomio.org
-twitter: Loomio
+website: http://next.openspending.org/
+documentation: http://docs.openspending.org/en/latest/users/
+twitter: OKFN
 ---
 
 ## What is it and why should I use it?
