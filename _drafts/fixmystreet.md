@@ -1,11 +1,11 @@
 ---
 title: FixMyStreet
-date: 2016-11-28 09:32:09.242000000 Z
+date: 2016-11-28 09:32:00 Z
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
-summary: Use Loomio to make decisions without a mess of emails or meetings. Invite
-  anyone to your conversation, structure the debate and finally vote. Easy right?
+summary: Mapping and reporting street problems to the councils responsible for fixing
+  them – now you can get that pot hole filled in without dealing with bureaucrats.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
@@ -26,6 +26,3 @@ twitter: Loomio
 ## How do I use it?
 
 
-> Quote
->
-> <cite>&mdash; Tom MacDiarmid, Statistics New Zealand</cite>
