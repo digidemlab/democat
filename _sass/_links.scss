@@ -7,6 +7,8 @@ a {
   text-decoration: underline;
   font-weight: bold;
   padding: 0.05em 0em 0.15em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover,
   &:focus,
@@ -28,7 +30,8 @@ a {
 }
 
 // Call to action button
-.button-cta {
+.button-cta,
+%button-cta {
   background-color: $yellow;
   border-radius: 5em;
   color: $blue;
@@ -36,14 +39,9 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
-
-  @media screen and (max-width: $break-small) {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-  }
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
 
   &:hover,
   &:focus,
@@ -51,6 +49,15 @@ a {
     background-color: $link-hover-color;
     text-decoration: none;
     color: $blue;
+  }
+
+  @media screen and (max-width: $break-small) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    z-index: 2;
   }
 }
 

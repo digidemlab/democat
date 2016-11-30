@@ -4,16 +4,21 @@ layout: global
 
 <div class="container">
   <div class="row category-lead">
-    <p class="col-sm-12 col-md-10 col-md-offset-1 text-center category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+    <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
+      <p class="category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+    </div>
   </div>
 </div>
 
 <div class="tool-intro container-full-width">
   <div class="container">
     <div class="row">
-      <div class="icon-heart text-center"></div>
-      <h1 class="text-center heading-a">{{page.title}}</h1>
-      <p class="col-sm-12 col-md-6 col-md-offset-3 text-center summary">{{page.summary}}</p>
+      <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+        <div class="icon-heart">
+        </div>
+        <h1 class="heading-a">{{page.title}}</h1>
+        <p class="summary">{{page.summary}}</p>
+      </div>
     </div>
   </div>
 </div>
@@ -46,6 +51,6 @@ layout: global
 
 <div class="container">
   <div class="col-sm-12 text-center">
-    <a class="button-cta" href="{{site.baseurl}}" role="button">Show me something else</a>
+    <a class="button-cta -fixed" href="{{site.baseurl}}#tool-listing" role="button">Show me something else</a>
   </div>
 </div>
