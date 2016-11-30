@@ -78,4 +78,4 @@ Ramsés Lopez, Researcher
 Sara Woodgate, Communication Strategist  
 Jennie Lindell, Graphic Designer  
 
-![digidemlabteam.jpeg](/uploads/digidemlabteam.jpeg)
+![digidemlabteam.jpeg]({{site.baseurl}}uploads/digidemlabteam.jpeg)
