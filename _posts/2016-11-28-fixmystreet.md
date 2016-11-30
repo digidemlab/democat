@@ -5,7 +5,7 @@ categories:
 - Get involved
 description: by reporting issues to your local authority
 summary: Mapping and reporting street problems to the councils responsible for fixing
-  them – now you can get that pot hole filled in without dealing with bureaucrats.
+  them – now you can get that pothole filled in without dealing with bureaucrats.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Anyone
