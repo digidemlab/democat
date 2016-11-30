@@ -26,7 +26,7 @@ All Our Ideas is an open survey tool created by Princeton University. It’s qui
 
 ## How do I use it?
 
-* Start with a question and some seed ideas, and you can create a survey in moments.
+* Start with a question and add some seed ideas, and you can create a survey in moments.
 * The people you invite vote on ideas and add new ones.
 * Discover the best ideas!
 
