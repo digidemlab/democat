@@ -15,9 +15,9 @@ democat: happy
 democatsays: Talk to your IT-person for licensing!
 quote: 
 source: 
-website: http://loomio.org/
-documentation: https://help.loomio.org
-twitter: Loomio
+website: https://www.fixmystreet.com
+documentation: http://fixmystreet.org/overview/
+twitter: "@fixmystreet"
 ---
 
 ## What is it and why should I use it?
