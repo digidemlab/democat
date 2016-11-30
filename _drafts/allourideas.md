@@ -1,6 +1,6 @@
 ---
-title: Hypothesis
-date: 2016-11-28 09:32:09.242000000 Z
+title: AllOurIdeas
+date: 2016-11-28 09:32:09.107000000 Z
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
