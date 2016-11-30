@@ -49,6 +49,8 @@ Open Source software that can be built on and adapted for the public good.
 
 The Digidem Guide is looking for sponsors and partners to be able to continue our work. Please get in touch if your institution or group can contribute to the project.
 
+Contact us: [digidemguide@digidemlab.org](mailto:digidemguide@digidemlab.org)
+
 ## The Digidem Guide 2016 Working Group
 
 ![digidemlabteam.jpeg]({{site.baseurl}}uploads/digidemlabteam.jpeg)

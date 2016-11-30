@@ -21,7 +21,7 @@ quote: "Rubbish accumulates, not inside the park but on the road in front of it 
 source: Van Tri Nguyen from Norbury
 website: https://www.fixmystreet.com
 documentation: http://fixmystreet.org/overview/
-twitter: "@fixmystreet"
+twitter: fixmystreet
 ---
 
 ## What is it and why should I use it?
