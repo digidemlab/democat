@@ -2,16 +2,16 @@
 title: OpenSpending
 date: 2016-11-28 09:32:00 Z
 categories:
-- Decide on an issue
-description: 
+- Give feedback and evaluate
+description: by understanding how money is spent
 summary: Open Spending allows you to understand how different organisations spend
   money. You can search existing data, upload your own and the programme provides
   visualisations to make finance easier to understand.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-participants: Small to medium sized groups
-preparations: Sign up or log in with Facebook to create a group
-difficulty: Easy. Use on website or iPhone or Android app
+participants: Unlimited
+preparations: Web login. Prepare data in a CSV format.
+difficulty: Medium. Easy if you're an Accountant.
 democat: happy
 democatsays: Talk to your IT-person for licensing!
 quote: 
