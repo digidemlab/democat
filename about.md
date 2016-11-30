@@ -2,6 +2,7 @@
 title: About Digidem Guide
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.
+image: participation-steps.png
 layout: page
 ---
 
@@ -21,35 +22,15 @@ There is a growing field of digital tools to facilitate democratic processes on 
 
 The levels of participation used in this guide was inspired by the Swedish municipalities Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the DemocracySpiral by the D-CENT project, which has a more horizontal and participation driven approach to democratic processes and digital participation.
 
-[Illustration]
+![participation steps]({{site.baseurl}}assets/images/png/participation-steps.png)
 
-Issue framing
-
-I want to raise awareness
-
-Identifying specific issues
-
-I want to create discussion
-
-Options generation
-
-I want to generate ideas
-
-Options scrutiny
-
-I want to collaborate on solutions
-
-Decision-making
-
-I want to decide on an issue
-
-Engagement in implementation
-
-I want to get involved
-
-Transparency and assessment
-
-I want to give feedback and evaluate
+1. I want to raise awareness
+2. I want to create discussion
+3. I want to generate ideas
+4. I want to collaborate on solutions
+5. I want to decide on an issue
+6. I want to get involved
+7. I want to give feedback and evaluate
 
 The first and foremost criteria for the tools selected for this guide is that they are *adding real value to democratic processes*.
 
@@ -70,6 +51,8 @@ The Digidem Guide is looking for sponsors and partners to be able to continue ou
 
 ## The Digidem Guide 2016 Working Group
 
+![digidemlabteam.jpeg]({{site.baseurl}}uploads/digidemlabteam.jpeg)
+
 **Petter Joelson**, Project Coordinator  
 **Nassia Panagiotidi**, Researcher & Designer  
 **Nicolás Diaz**, Developer  
@@ -77,5 +60,3 @@ The Digidem Guide is looking for sponsors and partners to be able to continue ou
 **Ramsés Lopez**, Researcher  
 **Sara Woodgate**, Communication Strategist  
 **Jennie Lindell**, Graphic Designer  
-
-![digidemlabteam.jpeg]({{site.baseurl}}uploads/digidemlabteam.jpeg)
