@@ -1,6 +1,6 @@
 ---
-title: BetterMeans
-date: 2016-11-28 09:32:09.107000000 Z
+title: OpenSpending
+date: 2016-11-28 09:32:09.141000000 Z
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
@@ -13,8 +13,8 @@ preparations: Sign up or log in with Facebook to create a group
 difficulty: Easy. Use on website or iPhone or Android app
 democat: happy
 democatsays: Talk to your IT-person for licensing!
-quote: 
-source: 
+quote:
+source:
 website: http://loomio.org/
 documentation: https://help.loomio.org
 twitter: Loomio
