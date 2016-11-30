@@ -6,13 +6,13 @@
           <h2 class="heading-b">Resources & Links</h2>
           <ul class="list-unstyled">
             {% if page.website %}
-              <li><a href="{{page.website}}">{{page.title}} website</a></li>
+              <li class="resources_item"><a class="resources_link" href="{{page.website}}">{{page.title}} website</a></li>
             {% endif %}
             {% if page.documentation %}
-              <li><a href="{{page.documentation}}">{{page.title}} documentation</a></li>
+              <li class="resources_item"><a class="resources_link" href="{{page.documentation}}">{{page.title}} documentation</a></li>
             {% endif %}
             {% if page.twitter %}
-              <li><a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
+              <li class="resources_item-twitter"><a class="resources_link" href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></li>
             {% endif %}
           </ul>
         </div>

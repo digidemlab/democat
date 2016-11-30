@@ -19,23 +19,14 @@
 }
 
 .shortfact {
-
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 
   &_inner {
-    padding: 1em 0;
+    padding: 0.6em 0;
 
     @media screen and (min-width: $break-medium) {
-      padding: 2em 0;
+      padding: 1em 0;
     }
-  }
-}
-
-.tool-intro {
-
-  .icon-heart {
-    bottom: 0.375em;
-    position: relative;
   }
 }
 
@@ -44,7 +35,7 @@
   line-height: 1.750em;
   font-family: $font-family-sans-serif;
   color: $blue;
-  padding: 1em 0;
+  margin: 1em 0 0;
 
   @media screen and (min-width: $break-medium) {
     font-size: 1.5em;
@@ -75,8 +66,8 @@
   blockquote {
     border-left: none;
     color: $purple;
-    font-size: 1.125em;
-    line-height: 1.750em;
+    font-size: 1.250em;
+    line-height: 1.50em;
     font-style: italic;
 
     @media screen and (min-width: $break-medium) {
@@ -92,5 +83,49 @@
       content: '–';
       margin-right: 0.2em;
     }
+  }
+}
+
+
+.resources {
+  padding: 2.5em 0 4em;
+
+  &_item:before {
+    background-image: url(../../assets/images/svg/icon-link.svg);
+    margin-right: 0.6em;
+    height: 1.125em;
+    width: 1.125em;
+    background-size: 1.125em 1.125em;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    top: 0.2em;
+    content: '';
+  }
+
+  &_item-twitter:before {
+    background-image: url(../../assets/images/svg/icon-twitter.svg);
+    margin-right: 0.6em;
+    height: 1.125em;
+    width: 1.375em;
+    background-size: 1.375em 1.125em;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    top: 0.2em;
+    content: '';
+  }
+
+  &_link:hover {
+    background-color: $white;
+  }
+}
+
+// Intro on tool-page and page-page
+.page-intro {
+  padding: 2.5em 0 4em;
+
+  h1 {
+    margin-bottom: 0;
   }
 }

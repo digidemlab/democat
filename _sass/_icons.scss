@@ -20,7 +20,6 @@
   height: 3.750em;
   background-image: url(../../assets/images/svg/icon-tool.svg);
   margin-top: -2em;
-  margin-bottom: 3em;
 }
 
 .icon-quote {
@@ -54,26 +53,12 @@
   background-image: url(../../assets/images/svg/icon-clock.svg);
 }
 
-.icon-participants {
-  @extend %icon;
+.icon-shortfacts {
+  margin-bottom: -1em;
   height: 3.125em;
   width: 3.125em;
-  margin: 1em 0;
-  background-image: url(../../assets/images/svg/icon-participants.svg);
-}
 
-.icon-preparations {
-  @extend %icon;
-  height: 3.125em;
-  width: 3.125em;
-  margin: 1em 0;
-  background-image: url(../../assets/images/svg/icon-preparations.svg);
-}
-
-.icon-difficulty {
-  @extend %icon;
-  height: 3.125em;
-  width: 3.125em;
-  margin: 1em 0;
-  background-image: url(../../assets/images/svg/icon-difficulty.svg);
+  @media screen and (max-width: $break-medium) {
+    margin-bottom: -0.5em;
+  }
 }

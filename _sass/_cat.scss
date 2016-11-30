@@ -6,19 +6,22 @@
   border-radius: 6em;
 
   &_quote {
+    font-size: 1.7em;
+    line-height: 1.3em;
     color: $purple;
     font-family: $font-family-cat;
-    padding: 1em;
+    padding: 1.1em;
+    margin-bottom: 0;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 2em;
+    }
   }
 
   .icon-triangle {
     position: absolute;
     bottom: -20px;
     left: 43%;
-  }
-
-  h2 {
-    margin-bottom: 0;
   }
 
   @media screen and (max-width: $break-small) {
@@ -46,10 +49,35 @@
 
 .img-cat-happy {
   @extend %cat-image;
-  background-image: url(../../assets/images/svg/img-cat-proud.svg);
+  background-image: url(../../assets/images/svg/img-cat-happy.svg);
 }
 
 .img-cat-back {
   @extend %cat-image;
   background-image: url(../../assets/images/svg/img-cat-back.svg);
+}
+
+.img-cat-box {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-box.svg);
+}
+
+.img-cat-cool {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-cool.svg);
+}
+
+.img-cat-two {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-two.svg);
+}
+
+.img-cat-calm {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-calm.svg);
+}
+
+.img-cat-toes {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-toes.svg);
 }
