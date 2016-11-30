@@ -12,8 +12,8 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
-democat: happy
-democatsays: Talk to your IT-person for licensing!
+democat: toes
+democatsays: 
 quote: 
 source: 
 website: http://next.openspending.org/
