@@ -86,6 +86,10 @@ ul,
     color: $white;
   }
 
+  &.-blue {
+    color: $blue;
+  }
+
   @media screen and (min-width: $break-medium) {
     font-size: 1.375em;
   }

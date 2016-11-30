@@ -51,3 +51,27 @@
   margin: 1em 0;
   background-image: url(../../assets/images/svg/icon-clock.svg);
 }
+
+.icon-participants {
+  @extend %icon;
+  height: 3.125em;
+  width: 3.125em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-participants.svg);
+}
+
+.icon-preparations {
+  @extend %icon;
+  height: 3.125em;
+  width: 3.125em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-preparations.svg);
+}
+
+.icon-difficulty {
+  @extend %icon;
+  height: 3.125em;
+  width: 3.125em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-difficulty.svg);
+}

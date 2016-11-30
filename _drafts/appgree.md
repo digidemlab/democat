@@ -11,7 +11,10 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
 preparations: Sign up or log in with Facebook to create a group
 difficulty: Easy. Use on website or iPhone or Android app
-democat: Talk to your IT-person for licensing!
+democat: happy
+democatsays: Talk to your IT-person for licensing!
+quote:
+source:
 website: http://loomio.org/
 documentation: https://help.loomio.org
 twitter: Loomio
@@ -21,8 +24,3 @@ twitter: Loomio
 
 
 ## How do I use it?
-
-
-> Quote
->
-> <cite>&mdash; Tom MacDiarmid, Statistics New Zealand</cite>
