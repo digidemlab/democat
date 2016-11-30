@@ -61,7 +61,7 @@
 
 // Quote
 .quote {
-  padding: 5em 0 6em;
+  padding: 2em 0 4em;
 
   blockquote {
     border-left: none;
@@ -73,6 +73,10 @@
     @media screen and (min-width: $break-medium) {
       font-size: 1.500em;
     }
+  }
+
+  @media screen and (min-width: $break-medium) {
+    padding: 5em 0 6em;
   }
 
   &_source {
@@ -88,7 +92,7 @@
 
 
 .resources {
-  padding: 2.5em 0 4em;
+  padding: 2em 0 3em;
 
   &_item:before {
     background-image: url(../../assets/images/svg/icon-link.svg);
@@ -118,6 +122,10 @@
 
   &_link:hover {
     background-color: $white;
+  }
+
+  @media screen and (min-width: $break-medium) {
+    padding: 3em 0 4em;
   }
 }
 
