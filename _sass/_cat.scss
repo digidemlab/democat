@@ -20,6 +20,10 @@
   h2 {
     margin-bottom: 0;
   }
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 3em;
+  }
 }
 
 %cat-image {
