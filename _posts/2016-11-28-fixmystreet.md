@@ -34,5 +34,3 @@ FixMyStreet makes it easy for anyone to report a problem without worrying about 
 * Locate the problem on a map of the areaEnter details of the problem
 * We send it to the council on your behalf
 * Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
-
-## Benefits
