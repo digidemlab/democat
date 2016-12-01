@@ -4,7 +4,7 @@ date: 2016-11-28 09:32:00 Z
 categories:
 - Generate ideas
 description: with an open survey
-summary: UseAllOur Ideas to vote on existing ideas and allow people to add new ones
+summary: Use AllOurIdeas to vote on existing ideas and allow people to add new ones
   into a simple survey. In the end the best ideas ‘bubble up’ to the surface.
 image: loomio.png
 video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
