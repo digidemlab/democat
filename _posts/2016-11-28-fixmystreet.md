@@ -6,7 +6,7 @@ categories:
 description: by reporting issues to your local authority
 summary: Mapping and reporting street problems to the councils responsible for fixing
   them – now you can get that pothole filled in without dealing with bureaucrats.
-image: loomio.png
+image: "/uploads/fixmystreet_720.png"
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Anyone.
 preparations: None. Unless you are setting up a new FixMyStreet.
