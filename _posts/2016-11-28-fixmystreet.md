@@ -33,5 +33,5 @@ FixMyStreet makes it easy for anyone to report a problem without worrying about 
 * Enter a nearby postcode, or street name and area, or choose to locate automatically 
 * Locate the problem on a map of the area
 * Enter details of the problem
-* We send it to the council on your behalf
+* FixMyStreet send it to the council on your behalf
 * Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
