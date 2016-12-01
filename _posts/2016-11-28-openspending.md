@@ -13,7 +13,8 @@ participants: Unlimited.
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
 democat: toes
-democatsays: 
+democatsays: Financial data isn't always fun, that's why the visualisation tools are
+  so important.  What's not to like about a bubble tree?
 quote: 
 source: 
 website: http://next.openspending.org/
