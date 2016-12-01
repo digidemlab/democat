@@ -7,7 +7,7 @@ description: by understanding how money is spent
 summary: Open Spending allows you to understand how different organisations spend
   money. You can search existing data, upload your own and the programme provides
   visualisations to make finance easier to understand.
-image: loomio.png
+image: "/uploads/openspending_720.png"
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited.
 preparations: Web login. Prepare data in a CSV format.
