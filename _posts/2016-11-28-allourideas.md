@@ -8,7 +8,7 @@ summary: Use AllOurIdeas to vote on existing ideas and allow people to add new o
   into a simple survey. In the end the best ideas ‘bubble up’ to the surface.
 image: loomio.png
 video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
-participants: Small to medium sized groups
+participants: Small to medium sized groups.
 preparations: Sign up at the website.
 difficulty: 'Easy. '
 democat: box
