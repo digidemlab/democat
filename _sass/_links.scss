@@ -23,8 +23,8 @@ a {
     &:hover,
     &:focus,
     &:active {
-      color: $purple-light;
-      background-color: $purple;
+      color: $purple;
+      background-color: $purple-light;
     }
   }
 }
@@ -147,6 +147,23 @@ a {
     float: right;
     height: 1em;
     width: 1.188em;
+  }
+}
+
+
+.footer-link {
+  color: $white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.05em 0.5em 0.15em;
+  margin: 0 0.5em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    text-decoration: none;
+    color: $purple;
   }
 }
 

@@ -1,0 +1,17 @@
+<div class="container-full-width -blue">
+  <div class="container">
+    <div class="row">
+    {% for item in page.infobox %}
+      <div class="infobox">
+        <div class="col-sm-4 text-center">
+          <div class="infobox_inner">
+            <h3 class="heading-c -white">{{item.title}}</h3>
+            <p class="-white -small">{{item.text}}</p>
+            <img src="{{site.baseurl}}/assets/images/svg/icon-{{item.id}}.svg" alt="" class="icon-{{item.id}}">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
