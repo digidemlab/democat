@@ -31,4 +31,4 @@ The OpenSpending project is community-owned and community-run database and solut
 * Upload your own data set
 * Model your data - so it can work with the visualisation software
 * Visualise the data - Treemaps, pie charts, bar charts, geolocation, line charts, tables, you name it!
-* Share and embed - any visualisation into your website, blog etc
+* Share and embed - any visualisation into your website, blog...
