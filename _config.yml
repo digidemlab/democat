@@ -25,7 +25,7 @@ social:
   links:
   - https://www.facebook.com/groups/digidemlab
   - https://github.com/digidemlab/digidem-guide
-baseurl: "/digidemguide"
+baseurl: ""
 markdown: kramdown
 permalink: "/:title/"
 gems: 
