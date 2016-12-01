@@ -6,7 +6,7 @@ categories:
 description: with an open survey
 summary: Use AllOurIdeas to vote on existing ideas and allow people to add new ones
   into a simple survey. In the end the best ideas ‘bubble up’ to the surface.
-image: loomio.png
+image: "/uploads/allourideas_720.png"
 video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
 participants: Small to medium sized groups.
 preparations: Sign up at the website.
