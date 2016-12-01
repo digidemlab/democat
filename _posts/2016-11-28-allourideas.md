@@ -12,8 +12,7 @@ participants: Small to medium sized groups
 preparations: Sign up at the website.
 difficulty: 'Easy. '
 democat: box
-democatsays: The best ideas often come from the users, people like you and cats like
-  me!
+democatsays: The best ideas often come from the users, cats like you and me!
 quote: It shows to me the value of being open. If the cities had the best 10 ideas
   from the beginning, there is no need to do something that is open, but the fact
   that the ideas are uploaded by users and scored, shows that there is something to
