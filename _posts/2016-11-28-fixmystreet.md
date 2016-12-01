@@ -9,8 +9,8 @@ summary: Mapping and reporting street problems to the councils responsible for f
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Anyone.
-preparations: Web.
-difficulty: 'Easy. '
+preparations: None. Unless you are setting up a new FixMyStreet.
+difficulty: 'Easy if It''s available in your country. '
 democat: happy
 democatsays: You can already fix your street in 13 countries across 4 continents!
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
