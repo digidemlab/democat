@@ -57,10 +57,10 @@ Contact us: [digidemguide@digidemlab.org](mailto:digidemguide@digidemlab.org)
 
 ![digidemlabteam.jpeg]({{site.baseurl}}/uploads/digidemlabteam.jpeg)
 
-**Petter Joelson**, Project Coordinator  
-**Nassia Panagiotidi**, Researcher & Designer  
-**Nicolás Diaz**, Developer  
-**Manuel Vega-Cuberos**, Political Researcher  
-**Ramsés Lopez**, Researcher  
-**Sara Woodgate**, Communication Strategist  
-**Jennie Lindell**, Graphic Designer  
+**Petter Joelson**, Founder, Sweden  
+**Athanasia Panagiotidi**, Urban Planner & Designer, Greece  
+**Nicolás Diaz Montenegro**, Developer, Columbia  
+**Manuel Vega-Cuberos**, Political Researcher, Columbia  
+**Ramsés Lopez**, Researcher, Panama  
+**Sara Woodgate**, Communication Strategist, UK  
+**Jennie Lindell**, Digital Designer, Sweden  
