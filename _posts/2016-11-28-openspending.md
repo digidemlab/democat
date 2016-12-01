@@ -9,7 +9,7 @@ summary: Open Spending allows you to understand how different organisations spen
   visualisations to make finance easier to understand.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-participants: Unlimited
+participants: Unlimited.
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
 democat: toes
