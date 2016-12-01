@@ -18,6 +18,8 @@ Digidem Guide is and initiative from Digidem Lab, and was initially developed by
 
 There is a growing field of digital tools to facilitate democratic processes on all levels of society. This guide does not try to be a comprehensive list of all initiatives and user cases, but a practical introduction this field and to the tools that we think best suit the different needs of practitioners.
 
+Digidem Lab is an independent non profit organisation, and none of the people in the working group have any financial incentives in any of the tools presented in this guide.
+
 ## Process
 
 The levels of participation used in this guide was inspired by the Swedish municipalities Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the DemocracySpiral by the D-CENT project, which has a more horizontal and participation driven approach to democratic processes and digital participation.
