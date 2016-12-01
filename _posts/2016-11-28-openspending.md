@@ -15,8 +15,13 @@ difficulty: Medium. Easy if you're an Accountant.
 democat: toes
 democatsays: Financial data isn't always fun, that's why the visualisation tools are
   so important.  What's not to like about a bubble tree?
-quote: 
-source: 
+quote: Data uploaded and visualized on OpenSpending was shared with the community’s
+  leaders for review. This gave the community the opportunity to compare and contrast
+  how planned budget allocation matched up with how funds were actually spent. The
+  community leaders identified potential misuse of funds in some budgets lines and
+  are continuing to conduct investigations and collect evidence to expose poor management
+  of public finances in Kota Damansara, Malaysia.
+source: Victoria Vlad, Open Spending Community lead
 website: http://next.openspending.org/
 documentation: http://docs.openspending.org/en/latest/users/
 twitter: OKFN
