@@ -8,8 +8,8 @@ summary: Mapping and reporting street problems to the councils responsible for f
   them – now you can get that pothole filled in without dealing with bureaucrats.
 image: loomio.png
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-participants: Anyone
-preparations: Web
+participants: Anyone.
+preparations: Web.
 difficulty: 'Easy. '
 democat: happy
 democatsays: You can already fix your street in 13 countries across 4 continents!
