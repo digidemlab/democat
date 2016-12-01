@@ -61,6 +61,6 @@ Contact us: [digidemguide@digidemlab.org](mailto:digidemguide@digidemlab.org)
 **Athanasia Panagiotidi**, Urban Planner & Designer, Greece  
 **Nicolás Diaz Montenegro**, Developer, Columbia  
 **Manuel Vega-Cuberos**, Political Researcher, Columbia  
-**Ramsés Lopez**, Researcher, Panama  
+**Ramsés Lopez**, Sociologist & Musician, Panama  
 **Sara Woodgate**, Communication Strategist, UK  
 **Jennie Lindell**, Digital Designer, Sweden  
