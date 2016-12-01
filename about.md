@@ -22,7 +22,7 @@ Digidem Lab is an independent non profit organisation, and none of the people in
 
 ## Process
 
-The levels of participation used in this guide was inspired by the Swedish municipalities Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the DemocracySpiral by the D-CENT project, which has a more horizontal and participation driven approach to democratic processes and digital participation.
+The levels of participation used in this guide was inspired by the Swedish municipalities' Participation Steps (SKL, 2009), which builds on Arnstein’s Participation Ladder (Arnstein, 1969). The main influence however is the DemocracySpiral by the D-CENT project, which has a more horizontal and participation driven approach to democratic processes and digital participation.
 
 ![participation steps]({{site.baseurl}}assets/images/png/participation-steps.png)
 
