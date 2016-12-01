@@ -60,7 +60,7 @@ Contact us: [digidemguide@digidemlab.org](mailto:digidemguide@digidemlab.org)
 **Petter Joelson**, Project Coordinator  
 **Nassia Panagiotidi**, Researcher & Designer  
 **Nicolás Diaz**, Developer  
-**Manuel Vega-Cuberos**, Researcher  
+**Manuel Vega-Cuberos**, Political Researcher  
 **Ramsés Lopez**, Researcher  
 **Sara Woodgate**, Communication Strategist  
 **Jennie Lindell**, Graphic Designer  
