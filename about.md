@@ -59,8 +59,8 @@ Contact us: [digidemguide@digidemlab.org](mailto:digidemguide@digidemlab.org)
 
 **Petter Joelson**, Founder, Sweden  
 **Athanasia Panagiotidi**, Urban Planner & Designer, Greece  
-**Nicolás Diaz Montenegro**, Developer, Columbia  
-**Manuel Vega-Cuberos**, Political Researcher, Columbia  
+**Nicolás Diaz Montenegro**, Developer, Colombia  
+**Manuel Vega-Cuberos**, Political Researcher, Colombia and Spain  
 **Ramsés Lopez**, Sociologist & Musician, Panama  
 **Sara Woodgate**, Communication Strategist, UK  
 **Jennie Lindell**, Digital Designer, Sweden  
