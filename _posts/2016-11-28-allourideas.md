@@ -11,7 +11,7 @@ video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
 participants: Small to medium sized groups
 preparations: Sign up at the website.
 difficulty: 'Easy. '
-democat: box
+democat: mouse
 democatsays: The best ideas often come from the users, people like you and cats like
   me!
 quote: It shows to me the value of being open. If the cities had the best 10 ideas
@@ -20,7 +20,7 @@ quote: It shows to me the value of being open. If the cities had the best 10 ide
   be learnt by this process.
 source: Matthew Salganik, Princeton University
 website: www.allourideas.org
-documentation: 
+documentation:
 twitter: allourideas
 ---
 
@@ -33,4 +33,3 @@ All Our Ideas is an open survey tool created by Princeton University. It’s qui
 * Start with a question and add some seed ideas, and you can create a survey in moments.
 * The people you invite vote on ideas and add new ones.
 * Discover the best ideas!
-

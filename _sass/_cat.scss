@@ -81,3 +81,8 @@
   @extend %cat-image;
   background-image: url(../../assets/images/svg/img-cat-toes.svg);
 }
+
+.img-cat-guide {
+  @extend %cat-image;
+  background-image: url(../../assets/images/svg/img-cat-guide.svg);
+}

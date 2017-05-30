@@ -11,7 +11,7 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Anyone
 preparations: Web
 difficulty: 'Easy. '
-democat: happy
+democat: mouse
 democatsays: You can already fix your street in 13 countries across 4 continents!
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
   just opposite my house! People just dump stuff from their car windows. \nI reported
@@ -30,7 +30,7 @@ FixMyStreet makes it easy for anyone to report a problem without worrying about 
 
 ## How do I use it?
 
-* Enter a nearby postcode, or street name and area, or choose to locate automatically 
+* Enter a nearby postcode, or street name and area, or choose to locate automatically
 * Locate the problem on a map of the areaEnter details of the problem
 * We send it to the council on your behalf
 * Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates

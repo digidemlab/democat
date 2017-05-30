@@ -39,16 +39,16 @@
 
 .icon-thumb {
   @extend %icon;
-  height: 3.125em;
-  width: 2.813em;
+  height: 3.5em;
+  width: 3.5em;
   margin: 1em 0;
   background-image: url(../../assets/images/svg/icon-thumb.svg);
 }
 
 .icon-clock {
   @extend %icon;
-  height: 2.813em;
-  width: 2.813em;
+  height: 3.5em;
+  width: 3.5em;
   margin: 1em 0;
   background-image: url(../../assets/images/svg/icon-clock.svg);
 }
@@ -61,4 +61,12 @@
   @media screen and (max-width: $break-medium) {
     margin-bottom: -0.5em;
   }
+}
+
+.icon-heart {
+  @extend %icon;
+  height: 3.5em;
+  width: 3.5em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-heart.svg);
 }

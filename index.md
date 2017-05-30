@@ -5,7 +5,7 @@ summary: Practical tools to create communities and make decisions together.
 democat: I'll be your guide to find your purrfect tool
 infobox:
 - title: Be more INCLUSIVE
-  id: hands
+  id: heart
   text: Everyone is equal online. It doesn’t matter where you live, how accessible
     the location is, or even what you wear; everyone is included in the discussion
     without prejudice.
@@ -19,4 +19,3 @@ infobox:
     can find the right tool to help promote discussion and collective decisions.
 layout: start
 ---
-

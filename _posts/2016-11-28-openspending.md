@@ -12,10 +12,10 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
-democat: toes
-democatsays: 
-quote: 
-source: 
+democat: mouse
+democatsays:
+quote:
+source:
 website: http://next.openspending.org/
 documentation: http://docs.openspending.org/en/latest/users/
 twitter: OKFN
