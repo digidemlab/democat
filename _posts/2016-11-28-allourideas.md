@@ -4,16 +4,21 @@ date: 2016-11-28 09:32:00 Z
 categories:
 - Generate ideas
 description: with an open survey
-summary: Use All Our Ideas to vote on existing ideas and allow people to add new ones
+summary: Use AllOurIdeas to vote on existing ideas and allow people to add new ones
   into a simple survey. In the end the best ideas ‘bubble up’ to the surface.
-image: loomio.png
+image: "/uploads/allourideas_720.png"
 video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
-participants: Small to medium sized groups
+participants: Small to medium sized groups.
 preparations: Sign up at the website.
 difficulty: 'Easy. '
+<<<<<<< HEAD
 democat: mouse
 democatsays: The best ideas often come from the users, people like you and cats like
   me!
+=======
+democat: box
+democatsays: The best ideas often come from the users, cats like you and me!
+>>>>>>> 32b5253cc69f4a8746da6f3665e8e0fa7fbda2af
 quote: It shows to me the value of being open. If the cities had the best 10 ideas
   from the beginning, there is no need to do something that is open, but the fact
   that the ideas are uploaded by users and scored, shows that there is something to
@@ -26,7 +31,7 @@ twitter: allourideas
 
 ## What is it and why should I use it?
 
-All Our Ideas is an open survey tool created by Princeton University. It’s quick  and easy to set up and easy to use. Users vote on existing suggestions and can add their own ideas.
+AllOurIdeas is an open survey tool created by Princeton University. It’s quick  and easy to set up and easy to use. Users vote on existing suggestions and can add their own ideas.
 
 ## How do I use it?
 

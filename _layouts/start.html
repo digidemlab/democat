@@ -55,9 +55,9 @@ layout: global
           #  To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
           #
           {% endcomment %}
-          {% assign sorted_cats = site.categories | sort %}
+          {% assign sorted_cats = site.categories %}
           {% for category in sorted_cats %}
-          {% assign sorted_posts = category[1] | reversed %}
+          {% assign sorted_posts = category[1] %}
             <dt class="heading-c -italic" id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
             <dd>
               <ul class="list-unstyled">
