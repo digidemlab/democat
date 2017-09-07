@@ -9,7 +9,7 @@ infobox:
   text: Everyone is equal online. It doesn’t matter where you live, how accessible
     the location is, or even what you wear; everyone is included in the discussion
     without prejudice.
-- title: This will SAVE YOUR TIME
+- title: This will SAVE YOU TIME
   id: clock
   text: We have all been stuck in endless meetings that feel like they’re going nowhere;
     together we can change that.
@@ -19,3 +19,4 @@ infobox:
     can find the right tool to help promote discussion and collective decisions.
 layout: start
 ---
+

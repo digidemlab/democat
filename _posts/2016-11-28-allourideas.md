@@ -11,7 +11,7 @@ video: 'https://www.youtube.com/watch?v=J6l1qfw4D10 '
 participants: Small to medium sized groups.
 preparations: Sign up at the website.
 difficulty: 'Easy. '
-democat: box
+democat: mouse
 democatsays: The best ideas often come from the users, cats like you and me!
 quote: It shows to me the value of being open. If the cities had the best 10 ideas
   from the beginning, there is no need to do something that is open, but the fact

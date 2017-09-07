@@ -12,7 +12,7 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited.
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
-democat: toes
+democat: mouse
 democatsays: Financial data isn't always fun, that's why the visualisation tools are
   so important.  What's not to like about a bubble tree?
 quote: Data uploaded and visualized on OpenSpending was shared with the community’s
