@@ -12,12 +12,6 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Unlimited.
 preparations: Web login. Prepare data in a CSV format.
 difficulty: Medium. Easy if you're an Accountant.
-<<<<<<< HEAD
-democat: mouse
-democatsays:
-quote:
-source:
-=======
 democat: toes
 democatsays: Financial data isn't always fun, that's why the visualisation tools are
   so important.  What's not to like about a bubble tree?
@@ -28,7 +22,6 @@ quote: Data uploaded and visualized on OpenSpending was shared with the communit
   are continuing to conduct investigations and collect evidence to expose poor management
   of public finances in Kota Damansara, Malaysia.
 source: Victoria Vlad, Open Spending Community lead
->>>>>>> 32b5253cc69f4a8746da6f3665e8e0fa7fbda2af
 website: http://next.openspending.org/
 documentation: http://docs.openspending.org/en/latest/users/
 twitter: OKFN

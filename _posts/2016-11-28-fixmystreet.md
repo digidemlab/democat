@@ -8,17 +8,10 @@ summary: Mapping and reporting street problems to the councils responsible for f
   them – now you can get that pothole filled in without dealing with bureaucrats.
 image: "/uploads/fixmystreet_720.png"
 video: https://www.youtube.com/watch?v=eZDBMfe3iPE
-<<<<<<< HEAD
-participants: Anyone
-preparations: Web
-difficulty: 'Easy. '
-democat: mouse
-=======
 participants: Anyone.
 preparations: None. Unless you are setting up a new FixMyStreet.
 difficulty: 'Easy if It''s available in your country. '
 democat: happy
->>>>>>> 32b5253cc69f4a8746da6f3665e8e0fa7fbda2af
 democatsays: You can already fix your street in 13 countries across 4 continents!
 quote: "Rubbish accumulates, not inside the park but on the road in front of it —
   just opposite my house! People just dump stuff from their car windows. \nI reported
@@ -37,15 +30,8 @@ FixMyStreet makes it easy for anyone to report a problem without worrying about 
 
 ## How do I use it?
 
-<<<<<<< HEAD
 * Enter a nearby postcode, or street name and area, or choose to locate automatically
-* Locate the problem on a map of the areaEnter details of the problem
-* We send it to the council on your behalf
-* Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
-=======
-* Enter a nearby postcode, or street name and area, or choose to locate automatically 
 * Locate the problem on a map of the area
 * Enter details of the problem
 * FixMyStreet send it to the council on your behalf
 * Ongoing reports and issues are visible online, you can subscribe to alerts and leave updates
->>>>>>> 32b5253cc69f4a8746da6f3665e8e0fa7fbda2af
