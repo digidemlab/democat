@@ -57,20 +57,22 @@ layout: global
           {% endcomment %}
           {% assign sorted_cats = site.categories %}
           {% for category in sorted_cats %}
-          {% assign sorted_posts = category[1] %}
-            <dt class="heading-c -italic" id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
-            <dd>
-              <ul class="list-unstyled">
-              {% for post in sorted_posts %}
-                <li class="tool-listing_item">
-             	    <a href="{{site.baseurl}}{{post.url}}">
-                    <div class="tool-listing_description">{{post.description}}</div>
-                    <div class="tool-listing_title">{{post.title}}</div>
-                    <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
-                  </a>
-                </li>
-              {% endfor %}
-            </dd>
+            {% assign sorted_posts = category[1] %}
+            {% if sorted_posts[0].lang == page.lang %}
+              <dt class="heading-c -italic" id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</dt>
+              <dd>
+                <ul class="list-unstyled">
+                {% for post in sorted_posts %}
+                  <li class="tool-listing_item">
+               	    <a href="{{site.baseurl}}{{post.url}}">
+                      <div class="tool-listing_description">{{post.description}}</div>
+                      <div class="tool-listing_title">{{post.title}}</div>
+                      <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
+                    </a>
+                  </li>
+                {% endfor %}
+              </dd>
+            {% endif %}
           {% endfor %}
         </dl>
       </div>

@@ -11,25 +11,51 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: pages
+  values:
+    layout: page
+    lang: en
+- scope:
+    path: ar
+    type: pages
+  values:
+    layout: page
+    lang: ar
+- scope:
+    path: ''
     type: posts
   values:
     layout: tool
-email: contact@p-jo.se
-description: Practical tools to create communities and make decisions together.
+    lang: en
+email: digidemguide@digidemlab.org
+logo: "/public/logo.png"
+
+permalink: "/:title/"
+t:
+  ar:
+    language: العَرَبِيَّة
+  en:
+    language: english
+baseurl:
+url: http://digidemguide.org
+author: Digidem Lab
 twitter:
   username: digidemlab
 facebook:
-  publisher: petter.joelson
-logo: "/public/logo.png"
+  publisher: digidemlab
+logo: "/public/logotyp.png"
 social:
   links:
-  - https://www.facebook.com/groups/digidemlab
+  - https://twitter.com/digidemlab
+  - https://www.facebook.com/digidemlab
+  - https://www.instagram.com/digidemlab/
   - https://github.com/digidemlab/digidem-guide
-baseurl: ''
-markdown: kramdown
-permalink: "/:title/"
-gems: 
+github_username: p-jo
 exclude:
 - ".sass-cache"
 - bower_components
-- Rakefile
+- path
+sass:
+  sass_dir: _sass
+gems:
+- jekyll-seo-tag

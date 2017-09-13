@@ -1,5 +1,5 @@
 ---
-title: About Digidem Guide
+title: Arabic About Digidem Guide
 ref: about
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.

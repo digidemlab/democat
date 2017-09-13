@@ -53,3 +53,18 @@
 .navbar-default {
   border: 0;
 }
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    float: left;
+
+    a {
+      display: block;
+      padding: 0.8em 0.5em;
+    }
+  }
+}
