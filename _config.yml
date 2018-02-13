@@ -28,7 +28,7 @@ social:
 baseurl: ''
 markdown: kramdown
 permalink: "/:title/"
-gems:
+gems: 
 exclude:
 - ".sass-cache"
 - bower_components
