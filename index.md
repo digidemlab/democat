@@ -1,5 +1,5 @@
 ---
-title: Welcome to Digidem Guide
+title: Welcome to Democat
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.
 democat: I'll be your guide to find your purrfect tool
@@ -19,4 +19,3 @@ infobox:
     can find the right tool to help promote discussion and collective decisions.
 layout: start
 ---
-

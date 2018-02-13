@@ -1,5 +1,5 @@
 ---
-title: Digidem Guide
+title: Democat - formerly Digidem Guide
 timezone: UTC
 collections:
   posts:
@@ -14,7 +14,7 @@ defaults:
     type: posts
   values:
     layout: tool
-email: contact@p-jo.se
+email: admin@digidemlab.org
 description: Practical tools to create communities and make decisions together.
 twitter:
   username: digidemlab
@@ -23,12 +23,12 @@ facebook:
 logo: "/public/logo.png"
 social:
   links:
-  - https://www.facebook.com/groups/digidemlab
+  - https://www.facebook.com/digidemlab
   - https://github.com/digidemlab/digidem-guide
 baseurl: ''
 markdown: kramdown
 permalink: "/:title/"
-gems: 
+gems:
 exclude:
 - ".sass-cache"
 - bower_components
