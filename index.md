@@ -1,5 +1,5 @@
 ---
-title: Welcome to Digidem Guide
+title: Welcome to Democat
 ref: start
 author: digidemlab
 summary: Practical tools to create communities and make decisions together.
