@@ -1,9 +1,9 @@
 ---
 title: OpenSpending
 date: 2016-11-28 09:32:00 Z
-ref: openspending
 categories:
 - Give feedback and evaluate
+ref: openspending
 description: by understanding how money is spent
 summary: Open Spending allows you to understand how different organisations spend
   money. You can search existing data, upload your own and the programme provides

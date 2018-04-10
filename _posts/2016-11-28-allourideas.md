@@ -1,9 +1,9 @@
 ---
 title: AllOurIdeas
 date: 2016-11-28 09:32:00 Z
-ref: allourideas
 categories:
 - Generate ideas
+ref: allourideas
 description: with an open survey
 summary: Use AllOurIdeas to vote on existing ideas and allow people to add new ones
   into a simple survey. In the end the best ideas ‘bubble up’ to the surface.
@@ -20,7 +20,7 @@ quote: It shows to me the value of being open. If the cities had the best 10 ide
   be learnt by this process.
 source: Matthew Salganik, Princeton University
 website: www.allourideas.org
-documentation:
+documentation: 
 twitter: allourideas
 ---
 

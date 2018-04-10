@@ -27,23 +27,24 @@ defaults:
   values:
     layout: tool
     lang: en
-email: digidemguide@digidemlab.org
-logo: "/public/logo.png"
-
+email: admin@digidemlab.org
+logo: "/public/logotyp.png"
 permalink: "/:title/"
 t:
   ar:
     language: العَرَبِيَّة
     lang-code: ar
     dir: rtl
-    participants:	المشاركين
-    preparations:	التحضيرات
-    difficulty:	الصعوبة
-    back-button:	أرني شيئاً آخر
-    links:	المصادر والروابط
-    button:	أحصل على أدواتك
-    tool-headline:	أنا أريد ...
-    footer: '	دليل ديجيديم هو مبادرة من ديجيديم لاب، التي تم إنشاؤها في " Inteligencia Colectiva Para La Democracia" الاستخبارات الجماعية للديمقراطية 2016 في مديالاب برادو.'
+    participants: المشاركين
+    preparations: التحضيرات
+    difficulty: الصعوبة
+    back-button: أرني شيئاً آخر
+    links: المصادر والروابط
+    button: أحصل على أدواتك
+    tool-headline: أنا أريد ...
+    footer: "\tدليل ديجيديم هو مبادرة من ديجيديم لاب، التي تم إنشاؤها في \" Inteligencia
+      Colectiva Para La Democracia\" الاستخبارات الجماعية للديمقراطية 2016 في مديالاب
+      برادو."
   en:
     language: english
     lang-code: en
@@ -55,25 +56,21 @@ t:
     links: Resources & Links
     button: Find your tool!
     tool-headline: I want to…
-baseurl:
+baseurl: ''
 url: http://digidemguide.org
 author: Digidem Lab
-email: admin@digidemlab.org
 description: Practical tools to create communities and make decisions together.
 twitter:
   username: digidemlab
 facebook:
   publisher: digidemlab
-logo: "/public/logotyp.png"
 social:
   links:
   - https://twitter.com/digidemlab
   - https://www.facebook.com/digidemlab
   - https://www.instagram.com/digidemlab/
   - https://github.com/digidemlab/digidem-guide
-baseurl: ''
 markdown: kramdown
-permalink: "/:title/"
 exclude:
 - ".sass-cache"
 - bower_components
