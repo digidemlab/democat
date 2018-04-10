@@ -4,13 +4,19 @@
 .logo {
   height: 2.125em;
   width: auto;
-  position: relative;
   margin: 1em 0 0.65em;
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
   @media (min-width: $screen-sm-min) {
     height: 3.125em;
+  }
+}
+
+.nav-brand {
+  height: 3.775em;
+  @media (min-width: $screen-sm-min) {
+    height: 4.775em;
   }
 }
 
