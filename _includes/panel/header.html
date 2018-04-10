@@ -5,11 +5,12 @@
 <header>
   <div class="header">
     <div class="container">
+      <!--
       <ul class="nav navbar-nav pull-right">
        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
        {% for post in posts %}
          <li class="nav-item {% if post.lang == page.lang %}active{% endif %}">
-           <a class="nav-link py-0 text-uppercase {{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}">
+           <a class="text-link text-uppercase -white -small {{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}">
              {{site.t[post.lang].language}}
            </a>
          </li>
@@ -17,14 +18,15 @@
        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
        {% for item in pages %}
          <li class="nav-item {% if item.lang == page.lang %}active{% endif %}">
-           <a class="nav-link py-0 text-uppercase {{ item.lang }}" href="{{ site.baseurl }}{{ item.url }}">
+           <a class="text-link text-uppercase -white -small {{ item.lang }}" href="{{ site.baseurl }}{{ item.url }}">
              {{site.t[item.lang].language}}
            </a>
          </li>
        {% endfor %}
      </ul>
+    -->
       <div class="text-center">
-        <a class="clean-link" href="{{site.baseurl}}/">
+        <a class="clean-link" href="{{site.baseurl}}{% if page.lang == 'en'%}/{% else %}/ar{% endif %}">
           <div class="visually-hidden">
             {{site.title}}
           </div>

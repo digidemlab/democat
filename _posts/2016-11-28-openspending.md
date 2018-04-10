@@ -1,6 +1,7 @@
 ---
 title: OpenSpending
 date: 2016-11-28 09:32:00 Z
+ref: openspending
 categories:
 - Give feedback and evaluate
 description: by understanding how money is spent

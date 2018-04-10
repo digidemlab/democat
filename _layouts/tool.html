@@ -55,7 +55,7 @@ layout: global
 <div class="container">
   <div class="row">
   <div class="col-sm-12 text-center shifted-10-up">
-    <a class="button-cta -fixed tool-page" href="{{site.baseurl}}/#tool-listing" role="button">Show me something else</a>
+    <a class="button-cta -fixed tool-page" href="{{site.baseurl}}{% if page.lang == 'en'%}/{% else %}/ar{% endif %}/#tool-listing" role="button">{{site.t[page.lang].back-button}}</a>
   </div>
 </div>
 </div>

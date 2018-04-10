@@ -18,7 +18,7 @@ layout: global
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-10 col-md-offset-1 text-center padding">
-        <a href="#tool-listing" class="button-cta hero-button">Find your tool!</a>
+        <a href="#tool-listing" class="button-cta hero-button">{{site.t[page.lang].button}}</a>
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@ layout: global
   <div class="row">
     <div class="col-md-4 col-md-offset-4 text-center">
       <div class="cat">
-        <h2 class="cat_quote">I'll be your guide to find your purrfect tool</h2>
+        <h2 class="cat_quote">{{page.democat}}</h2>
       </div>
       <div class="icon-triangle"></div>
       <div class="img-cat-guide"></div>
@@ -42,7 +42,7 @@ layout: global
   <div class="tool-listing">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="heading-a -italic"><a name="tool-listing" class="clean-link">I want to…</a></h2>
+        <h2 class="heading-a -italic"><a name="tool-listing" class="clean-link">{{site.t[page.lang].tool-headline}}</a></h2>
       </div>
     </div>
 
@@ -66,7 +66,7 @@ layout: global
                   <li class="tool-listing_item">
                	    <a href="{{site.baseurl}}{{post.url}}">
                       <div class="tool-listing_description">{{post.description}}</div>
-                      <div class="tool-listing_title">{{post.title}}</div>
+                      <div class="tool-listing_title text-left">{{post.title}}</div>
                       <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
                     </a>
                   </li>

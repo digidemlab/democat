@@ -34,8 +34,27 @@ permalink: "/:title/"
 t:
   ar:
     language: العَرَبِيَّة
+    lang-code: ar
+    dir: rtl
+    participants:	المشاركين
+    preparations:	التحضيرات
+    difficulty:	الصعوبة
+    back-button:	أرني شيئاً آخر
+    links:	المصادر والروابط
+    button:	أحصل على أدواتك
+    tool-headline:	أنا أريد ...
+    footer: '	دليل ديجيديم هو مبادرة من ديجيديم لاب، التي تم إنشاؤها في " Inteligencia Colectiva Para La Democracia" الاستخبارات الجماعية للديمقراطية 2016 في مديالاب برادو.'
   en:
     language: english
+    lang-code: en
+    dir: ltr
+    participants: Participants
+    preparations: Preparations
+    difficulty: Difficulty
+    back-button: Show me something else
+    links: Resources & Links
+    button: Find your tool!
+    tool-headline: I want to…
 baseurl:
 url: http://digidemguide.org
 author: Digidem Lab
@@ -55,12 +74,11 @@ social:
 baseurl: ''
 markdown: kramdown
 permalink: "/:title/"
-gems:
 exclude:
 - ".sass-cache"
 - bower_components
 - path
 sass:
   sass_dir: _sass
-gems:
+plugins:
 - jekyll-seo-tag

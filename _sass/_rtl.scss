@@ -1,0 +1,14 @@
+//
+// Styles for Right to left text
+
+dd {
+  margin-right: 0;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.rtl .col-md-offset-1 {
+  margin-right: 8.3333333333%;
+}

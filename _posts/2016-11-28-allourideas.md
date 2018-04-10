@@ -1,6 +1,7 @@
 ---
 title: AllOurIdeas
 date: 2016-11-28 09:32:00 Z
+ref: allourideas
 categories:
 - Generate ideas
 description: with an open survey
@@ -19,7 +20,7 @@ quote: It shows to me the value of being open. If the cities had the best 10 ide
   be learnt by this process.
 source: Matthew Salganik, Princeton University
 website: www.allourideas.org
-documentation: 
+documentation:
 twitter: allourideas
 ---
 

@@ -1,22 +1,18 @@
 ---
-title: Arabic Welcome to Digidem Guide
+title: Welcome to Digidem Guide
 ref: start
 author: digidemlab
-summary: Practical tools to create communities and make decisions together.
-democat: I'll be your guide to find your purrfect tool
+summary:	أدوات عملية لخلق المجتمعات واتخاذ القرارات معا.
+democat:	سأكون مرشدك للحصول على أدواة ميومتازة
 infobox:
-- title: Be more INCLUSIVE
+- title:	أكثر شمولية
   id: heart
-  text: Everyone is equal online. It doesn’t matter where you live, how accessible
-    the location is, or even what you wear; everyone is included in the discussion
-    without prejudice.
-- title: This will SAVE YOU TIME
+  text: الجميع على قدم المساواة في الانترنت. لا يهم أين تعيش، سهولة الوصول إلى الموقع، أو حتى ما ترتديه. يتم تضمين الجميع في المناقشة دون الانحياز.
+- title:	هذا سوف يوفر عليك الوقت
   id: clock
-  text: We have all been stuck in endless meetings that feel like they’re going nowhere;
-    together we can change that.
-- title: It’s BETTER (Honestly)
+  text: جميعنا علقنا في اجتماعات لا تنتهي ونشعر بأنها مضيعة للوقت, معاً نستطيع أن نغير ذلك.
+- title:	إنه أفضل (بصراحة)
   id: thumb
-  text: Find out what people think, what people want and do something about it. We
-    can find the right tool to help promote discussion and collective decisions.
+  text: اعرف ما يفكر فيه الناس، ما يريده الناس وافعل شيئا حيال ذلك. يمكننا أن نجد الأداة المناسبة للمساعدة في تعزيز المناقشة والقرارات الجماعية.
 layout: start
 ---
