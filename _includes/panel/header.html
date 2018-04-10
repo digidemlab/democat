@@ -5,26 +5,30 @@
 <header>
   <div class="header">
     <div class="container">
-      <!--
+
       <ul class="nav navbar-nav pull-right">
        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
        {% for post in posts %}
-         <li class="nav-item {% if post.lang == page.lang %}active{% endif %}">
-           <a class="text-link text-uppercase -white -small {{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}">
-             {{site.t[post.lang].language}}
-           </a>
-         </li>
+         {% if post.lang != page.lang %}
+           <li class="nav-item">
+             <a class="clean-link text-uppercase -white -small {{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}">
+               {{site.t[post.lang].language}}
+             </a>
+           </li>
+         {% endif %}
        {% endfor %}
        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
        {% for item in pages %}
-         <li class="nav-item {% if item.lang == page.lang %}active{% endif %}">
-           <a class="text-link text-uppercase -white -small {{ item.lang }}" href="{{ site.baseurl }}{{ item.url }}">
-             {{site.t[item.lang].language}}
-           </a>
-         </li>
+         {% if item.lang != page.lang %}
+           <li class="nav-item">
+             <a class="clean-link text-uppercase -white -small {{ item.lang }}" href="{{ site.baseurl }}{{ item.url }}">
+               {{site.t[item.lang].language}}
+             </a>
+           </li>
+         {% endif %}
        {% endfor %}
      </ul>
-    -->
+
       <div class="text-center">
         <a class="clean-link" href="{{site.baseurl}}{% if page.lang == 'en'%}/{% else %}/ar{% endif %}">
           <div class="visually-hidden">
@@ -37,34 +41,5 @@
     </div>
   </div>
 </header>
-
-<!-- old header - save for later ">
-
-  <!-- <nav class="navbar navbar-default">
-    <div class="header">
-      <div class="container text-center">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="{{site.baseurl}}/">
-            <div class="visually-hidden">
-              {{site.title}}
-            </div>
-            <img src="{{site.baseurl}}/assets/images/svg/logo.svg" alt="Democat" class="logo">
-          </a>
-        </div> -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-    <!-- <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-          <ul class="list-unstyled navbar-custom">
-            <li class="navbar-custom_item"><a class="navbar-custom_item_link" href="{{site.baseurl}}/about">About</a></li>
-          </ul>
-        </div>
-      </div> -->
-      <!-- /.container-fluid -->
-  <!-- </div>
-  </nav> -->
 
 <a id="main-content"></a>
