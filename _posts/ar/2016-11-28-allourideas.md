@@ -22,7 +22,7 @@ quote: وهو يبين لي قيمة الانفتاح. إذا كانت المد�
   , جامعة برينستون
 source: Matthew Salganik, Princeton University
 website: www.allourideas.org
-documentation: 
+documentation:
 twitter: allourideas
 ---
 
