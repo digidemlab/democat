@@ -19,8 +19,8 @@ quote: It shows to me the value of being open. If the cities had the best 10 ide
   that the ideas are uploaded by users and scored, shows that there is something to
   be learnt by this process.
 source: Matthew Salganik, Princeton University
-website: www.allourideas.org
-documentation: 
+website: http://www.allourideas.org
+documentation:
 twitter: allourideas
 ---
 
