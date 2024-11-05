@@ -56,8 +56,8 @@ t:
     links: Resources & Links
     button: Find your tool!
     tool-headline: I want to…
-baseurl: ''
-url: http://digidemguide.org
+baseurl: '/democat'
+# url: http://digidemguide.org
 author: Digidem Lab
 description: Practical tools to create communities and make decisions together.
 twitter:
